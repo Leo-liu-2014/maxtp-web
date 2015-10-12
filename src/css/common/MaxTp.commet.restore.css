@@ -59,7 +59,7 @@
 .thismain textarea { width: 100%; padding: 0px; min-height: 168px; overflow: auto; border: 1px solid #ccc; }
 .postBtn { width: 100%; text-align: right; line-height: 30px; }
 .postBtn span { padding-right: 30px; padding-top: 5px; display: block; }
-.postBtn span input[type="button"] { padding: 0 15px; height: 28px; color: #fff; cursor: pointer; background: url(../images/lucency_icon/yzm01.jpg) repeat-x; }
+.postBtn span input[type="button"] { padding: 0 15px; height: 28px; color: #fff; cursor: pointer; background: url(../../images/lucency_icon/yzm01.jpg) repeat-x; }
 .postBtn span input[type="button"]:hover { background: #93D700; }
 .postBtn span input[type="text"] { padding: 0 5px; width: 70px; height: 28px; line-height: 28px; border: 1px solid #ccc; }
 .paddingr30 { padding: 0 30px 0 0; }

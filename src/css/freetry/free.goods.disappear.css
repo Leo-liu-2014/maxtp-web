@@ -18,4 +18,4 @@ body {line-height: 1.5; font-family:"Microsoft YaHei";background:#f5f5f5;font-si
 .aldelete{ background:#fff; padding:100px 0; clear:both; box-shadow:2px 2px 3px #eee; text-align:center;}
 .aldelete p{ text-align:center; font-size:16px; color:#ff6600;}
 .aldelete span.top10{ margin-right:50px; line-height:60px;}
-.baby_details_wrap .aldelete p span{ background:url(../images/icon/brand_rightBox_icon.png) no-repeat scroll -265px 5px; margin-right:3px; }
+.baby_details_wrap .aldelete p span{ background:url(../../images/icon/brand_rightBox_icon.png) no-repeat scroll -265px 5px; margin-right:3px; }

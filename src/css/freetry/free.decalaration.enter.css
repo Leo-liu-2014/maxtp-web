@@ -9,7 +9,7 @@
 .main h1.minf{ border-bottom:1px solid #000; font-size:18px; line-height:30px; font-weight:800; margin:10px 0;}
 .blog_cl img{ border:1px solid #ccc;}
 .blog_blc em{ line-height:24px; font-size:12px;}
-.blog_blc h2{ float:left; font-size:14px; height:26px; line-height:26px; padding:0 15px; color:#fff; background:url(../images/button/titleSub.png) no-repeat scroll right top;}
+.blog_blc h2{ float:left; font-size:14px; height:26px; line-height:26px; padding:0 15px; color:#fff; background:url(../../images/button/titleSub.png) no-repeat scroll right top;}
 .blog_blc span.bj{ display:none;}
 .blog_blc span.ts{ line-height:26px; margin-left:10px;}
 .blog_blc span.ts s{ text-decoration:none;}
@@ -27,7 +27,7 @@
 .blog_blcc .fl font.f14{ font-size:14px; font-weight:bold; color:#333;}
 .blog_blcc .fl,.blog_blcc .fr{ line-height:30px;}
 .blog_blcc .fr p.positon{ position:absolute; right:43px; bottom:-2px;}
-input.w_input{ font-size:14px; padding:0 25px; height:30px; background:url(../images/lucency_icon/data02.png) repeat-x; color:#fff; border:none;}
+input.w_input{ font-size:14px; padding:0 25px; height:30px; background:url(../../images/lucency_icon/data02.png) repeat-x; color:#fff; border:none;}
 input.w_input.w190{ width:194px; padding:0; margin-left:5px;}
 input.w_input:hover{ background:#f39700;}
 .blog_blcc .fr span{ color:#f60; font-size:16px; margin-right:20px; font-weight:bold;}
@@ -35,30 +35,30 @@ input.w_input:hover{ background:#f39700;}
 .hintb{ width:420px; background:#9c0; border:1px solid #c9c9c9; padding:0 10px 10px 10px;}
 .hintc{ width:540px; background:#fff; border:1px solid #c9c9c9; box-shadow:2px 2px 10px #666;}
 .hintb h2{ height:60px; line-height:60px; color:#fff; font-size:18px; text-align:center; position:relative;}
-.hintb h2 a{ display:block; width:15px; height:15px; background:url(../images/icon/x.png) no-repeat; position: absolute; right:5px; top:10px;}
+.hintb h2 a{ display:block; width:15px; height:15px; background:url(../../images/icon/x.png) no-repeat; position: absolute; right:5px; top:10px;}
 .hintb .text{ padding:20px; text-align:center; background:#fff; box-shadow:2px 2px 10px #666;}
 .hintb .text p{ font-size:14px; line-height:24px; text-align:left;}
 .hintb .text p.font14{ font-size:14px; clear:both; margin:0;}
 .hintb .text input{ min-width:95px; height:30px; padding:0 20px; border:none; color:#fff;cursor: pointer; margin-top:50px;}
-.hintb .text a.l_bj{ display:inline-block;background:url(../images/lucency_icon/yzm01.jpg) repeat-x;min-width:95px; height:30px; padding:0 20px; border:none; color:#fff;cursor: pointer; margin-top:20px; border-radius:3px; line-height:30px;}
+.hintb .text a.l_bj{ display:inline-block;background:url(../../images/lucency_icon/yzm01.jpg) repeat-x;min-width:95px; height:30px; padding:0 20px; border:none; color:#fff;cursor: pointer; margin-top:20px; border-radius:3px; line-height:30px;}
 .hintb .text a.l_bj:hover{ background:#93d700;}
 
 .hintb dl{ padding:30px; text-align:center; font-size:14px;}
 .hintb dl dt{ border-bottom:1px dashed #999; text-align:left; line-height:24px; padding-bottom:25px;}
 .hintb dl dd{ border-bottom:1px dashed #999; text-align:left; line-height:24px; padding:15px 45px;}
 .hintb dl dd input{ float:right; min-width:95px; height:25px; padding:0 20px; border:none; color:#fff;cursor: pointer;}
-.hintb dl dd input.h_bj{ background:url(../images/lucency_icon/data03.jpg) repeat-x;}
+.hintb dl dd input.h_bj{ background:url(../../images/lucency_icon/data03.jpg) repeat-x;}
 
 .hintb dl span{ text-align:center; margin:40px 0 20px 0;}
 .hintb dl span input{ min-width:95px; height:30px; padding:0 20px; border:none; color:#fff;cursor: pointer; margin:0 30px;}
-.hintb dl span input.l_bj{ background:url(../images/lucency_icon/yzm01.jpg) repeat-x;}
-.hintb dl span input.h_bj{ background:url(../images/lucency_icon/yzm01.jpg) repeat-x;}
+.hintb dl span input.l_bj{ background:url(../../images/lucency_icon/yzm01.jpg) repeat-x;}
+.hintb dl span input.h_bj{ background:url(../../images/lucency_icon/yzm01.jpg) repeat-x;}
 
 .hintc{ width:540px; background:#fff; border:1px solid #c9c9c9; box-shadow:2px 2px 10px #666;}
 .hintb h2{ height:36px; line-height:36px; color:#fff; font-size:14px; text-align:center; background:#9c0; position:relative;}
-.hintb h2 a{ display:block; width:14px; height:14px; background:url(../images/icon/oClose_X.png) no-repeat 0 -22px; position: absolute; right:5px; top:12px;}
+.hintb h2 a{ display:block; width:14px; height:14px; background:url(../../images/icon/oClose_X.png) no-repeat 0 -22px; position: absolute; right:5px; top:12px;}
 .hintb .text p{ font-size:12px; line-height:18px; text-align:left; margin:15px 0;}
-.hintb .text p.yellow em{ float:left; width:15px; height:15px; background:url(../images/icon/zhu3.png) no-repeat; margin-top:2px;}
+.hintb .text p.yellow em{ float:left; width:15px; height:15px; background:url(../../images/icon/zhu3.png) no-repeat; margin-top:2px;}
 .hintb .text p.yellow span{ float:left; line-height:20px; width:355px; margin-left:5px; font-size:14px;}
 .hintb .text p.yellow span.plp{ padding-left:9px;}
 .hintb .text input{ min-width:95px; height:30px; padding:0 20px; border:none; color:#fff;cursor: pointer; margin-top:30px;}

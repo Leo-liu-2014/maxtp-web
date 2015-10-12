@@ -29,7 +29,6 @@ var newCommon = {
 		    $("input[name=reAdree]").each(function(index){
 				if(btn.prev().html()==$(this).next().children().last().html()){
 				    $(this).attr("checked",true);
-				    
 				}
 			})
 		}
@@ -698,10 +697,16 @@ var newCommon = {
 						 inputCount(this)//按下键盘时提示字符数
 					 });
 
-				     $(this).on("blur keyup paste change",function(){
+				     $(this).on("blur paste change input",function(){
 				     	var attr = this
 				     	nomust($(attr),null,finaly["inputText"])
 			    		});
+				     $(this).on("propertychange",function(event){
+				     	if(event.propertyName.toLowerCase () == "value"){
+				     	var attr = this
+				     	nomust($(attr),null,finaly["inputText"]);
+				     	}
+			    		})
 				     });
 		   }
 		   //判断点击是否通过验证
@@ -2339,8 +2344,13 @@ function nomust(obj,num,endfn){
 	
 	 var len
 	   if(obj.hasClass("mustVal")&&obj.val().trim()==""){
+	   	if(obj.is('select')){
+	   		var showTip = "必选项，请选择";
+	   	}else{
+	   		var showTip = "必填项，请填写";
+	   	}
 	 		onbginner(obj)
-			setInfo({obj:obj,icon:icon,content:obj.attr("data-val")});
+			setInfo({obj:obj,icon:icon,content:showTip});
 		}
 	  else if(number(obj.val())&&obj.hasClass("Number")){					//只能输入数字
 			onbginner(obj)
@@ -2437,7 +2447,7 @@ function blurSel(obj,endfn){
 	  }else{
 	  	  if(obj.val()=="selected"||obj.val()==""){
 				result  = false
-				setInfo({obj:obj})
+				setInfo({obj:obj,content:"必选项,请选择"})
 		   }else{
 				result = true;
 				errorhide(obj);
@@ -2619,7 +2629,10 @@ function noSpace(obj){
 	obj=obj==undefined?".noSpace":obj;
 	$(obj).each(function(){
 		var attr = this;
-		$(this).on('keyup',regEpx)
+		$(this).on('keypress',function(event){
+			if(event.keyCode == 32)
+			event.returnValue = false;
+		})
 		$(this).on('onafterpaste',regEpx)
 		$(this).on('blur',regEpx)
 	})
@@ -3203,7 +3216,7 @@ function Confirm(json,num,del){
 	focusandblur(json["box"],'input[type=text]',1);
 	focusandblur(json["box"],'input[type=password]',1);
 	focusandblur(json["box"],'textarea',0);
-	focusandblur(json["box"],'select',0);
+	focusandblur(json["box"],'select',0 );
 	function focusandblur(box,must,num){
 	     $(box+" "+must).each(function(index, element) {
 		 	 var obj = $(this).parent().find(".textError");
@@ -3495,7 +3508,8 @@ function deletesixin (){
 		   				$(".alreadydel").eq(i).css({ "top": getheight,"right": "-32px" })
 		   			}
    			 }})
-		})
+   			
+	})
  })
 }
 function deletsixinliebiao (){

@@ -10,9 +10,9 @@
 .n_order p.green{ font-size:16px; margin:30px 0 30px 0; font-weight:bold;}
 .drink{ position:relative;}
 .drink h2{ float:left; color:#fff; text-align:center; padding:0 7px 0 14px; height:26px; line-height:26px; background:#8fc31f;}
-.drink span.bj{ float:left; width:8px; height:26px; background:url(../images/lucency_icon/order_information_01.png) right no-repeat;}
+.drink span.bj{ float:left; width:8px; height:26px; background:url(../../images/lucency_icon/order_information_01.png) right no-repeat;}
 .drink span{ line-height:26px;}
-.drink input.input125{ position: absolute; top:-8px; right:0; font-size:14px; padding:0 15px; height:30px; background:url(../images/lucency_icon/data02.png) repeat-x; color:#fff; border:none;}
+.drink input.input125{ position: absolute; top:-8px; right:0; font-size:14px; padding:0 15px; height:30px; background:url(../../images/lucency_icon/data02.png) repeat-x; color:#fff; border:none;}
 .drink input.input125:hover{ background:#f39700;}
 .n_order p.green span{ float:right; font-size:16px; color:#f60;}
 .n_order p.green span em{ color:#333;}
@@ -52,25 +52,25 @@
 .tab_noe tbody tr td .border_img a.f_l{ margin-left:10px;}
 .tab_noe tbody tr td .border_img p.w180{ display:block; width:180px; text-align:left; margin:10px 0 0 10px; line-height:28px;}
 .tab_noe tbody tr td .border_img p.w180 a{ color:#333;}
-input.input_180{ float:right; padding:0 60px; height:30px; background: url(../images/lucency_icon/yzm01.jpg) repeat-x; border:none; font-size:18px; color:#fff;}
+input.input_180{ float:right; padding:0 60px; height:30px; background: url(../../images/lucency_icon/yzm01.jpg) repeat-x; border:none; font-size:18px; color:#fff;}
 .hintb{  width:540px; background:#fff; border:1px solid #c9c9c9; box-shadow:2px 2px 10px #666; position:absolute; z-index:80;}
 .hintb h2{ height:60px; line-height:60px; color:#fff; font-size:18px; text-align:center; background:#88c700; position:relative;}
-.hintb h2 a{ display:block; width:15px; height:15px; background:url(../images/icon/x.png) no-repeat; position: absolute; right:5px; top:10px;}
+.hintb h2 a{ display:block; width:15px; height:15px; background:url(../../images/icon/x.png) no-repeat; position: absolute; right:5px; top:10px;}
 .hintb .text{ padding:30px; text-align:center;}
 .hintb .text p{ font-size:14px; line-height:24px; text-align:left;}
 .hintb .text input{ min-width:95px; height:30px; padding:0 20px; border:none; color:#fff;cursor: pointer; margin-top:50px;}
-.hintb .text input.l_bj{ background:url(../images/img/yzm03.jpg) repeat-x;}
+.hintb .text input.l_bj{ background:url(../../images/img/yzm03.jpg) repeat-x;}
 .hintb dl{ padding:30px; text-align:center; font-size:14px;}
 .hintb dl dt{ border-bottom:1px dashed #999; text-align:left; line-height:24px; padding-bottom:25px;}
 .hintb dl dd{ border-bottom:1px dashed #999; text-align:left; line-height:24px; padding:15px 45px;}
 .hintb dl span input{ min-width:95px; height:30px; padding:0 20px; border:none; font-size:16px; color:#fff;cursor: pointer; margin:0 30px;}
-.hintb dl span input.l_bj{ background:url(../images/lucency_icon/yzm01.jpg) repeat-x;}
-.hintb dl span input.h_bj{ background:url(../images/lucency_icon/data02.png) repeat-x;}
+.hintb dl span input.l_bj{ background:url(../../images/lucency_icon/yzm01.jpg) repeat-x;}
+.hintb dl span input.h_bj{ background:url(../../images/lucency_icon/data02.png) repeat-x;}
 .hintb .dl02 span{ margin:20px 0 0 0;}
-.n_order p.green span.bj_lj{ height:28px; line-height:28px; padding-left:35px; background:url(../images/lucency_icon/yzm25.png) no-repeat;}
+.n_order p.green span.bj_lj{ height:28px; line-height:28px; padding-left:35px; background:url(../../images/lucency_icon/yzm25.png) no-repeat;}
 .hintb{ width:440px; display:none; background:#fff; border:1px solid #c9c9c9; box-shadow:2px 2px 10px #666; position:absolute; z-index:80;}
 .hintb dl dd input{ float:right; min-width:95px; height:25px; padding:0 20px; border:none; color:#fff;cursor: pointer;}
-.hintb dl dd input.h_bj{ background:url(../images/lucency_icon/data03.jpg) repeat-x;}
+.hintb dl dd input.h_bj{ background:url(../../images/lucency_icon/data03.jpg) repeat-x;}
 .hintb dl span{ text-align:center; margin:40px 0 20px 0;}
 .hintb dl span input{ min-width:95px; height:30px; padding:0 20px; border:none; color:#fff;cursor: pointer; margin:0 30px;}
 .fla p{ margin-bottom:20px;}
@@ -85,7 +85,7 @@ input.input_180{ float:right; padding:0 60px; height:30px; background: url(../im
 .fla .width740 li select.select120{float:left; height:30px; border-radius:2px; line-height:30px; color:#999; border:1px solid #a0a0a0; width:120px; margin-right:5px;}
 .fla .width740 li textarea.input470{ width:540px; height:65px; margin-right:10px;}
 .fla .width740 li input.input180{ width:189px; height:28px;}
-.fla .width740 input.input125{ float:right;  margin-right:80px; font-size:14px; padding:0 15px; height:30px; background:url(../images/lucency_icon/data02.png) repeat-x; color:#fff; border:none;}
+.fla .width740 input.input125{ float:right;  margin-right:80px; font-size:14px; padding:0 15px; height:30px; background:url(../../images/lucency_icon/data02.png) repeat-x; color:#fff; border:none;}
 .fla .width740 input.input125:hover{ background:#f39700;}
 table.tab_noe{ clear:both; width:1000px; border-collapse:collapse;}
 table.tab_noe thead{ background:#f4fbe5;}
@@ -100,11 +100,11 @@ table.tab_noe tbody td.mc_span{ padding:0 10px;}
 table.tab_noe tbody td.mc_span span{ width:180px; line-height:28px; margin-top:12px;}
 .n_order03b08{ width:820px; background:#f9f9f9; padding:0 90px;}
 .n_order03b08 dt,.n_order03b08 dd{ float:left; padding:10px 0; width:820px; text-align:left; font-size:14px; color:#333; line-height:24px;}
-.n_order03b08 dt input{ height:25px; padding:0 10px; margin-top:11px; background: url(../images/lucency_icon/data03.jpg) repeat-x; border:none; color:#fff; font-size:14px;cursor: pointer;}
+.n_order03b08 dt input{ height:25px; padding:0 10px; margin-top:11px; background: url(../../images/lucency_icon/data03.jpg) repeat-x; border:none; color:#fff; font-size:14px;cursor: pointer;}
 .n_order03b08 dt input:hover{ background:#f39700;}
 .n_order03b08 dt span{ margin-left:15px; margin-right:15px;}
 .n_order03b08 dt p,.n_order03b08 dd p{ float:left; margin-right:15px; color:#6fa300;}
-.n_order03b08 dt input.fr{ margin-top:10px; float:right; padding:0 50px; height:30px; font-size:14px; background: url(../images/lucency_icon/yzm01.jpg) repeat-x; color:#fff; border:none;}
+.n_order03b08 dt input.fr{ margin-top:10px; float:right; padding:0 50px; height:30px; font-size:14px; background: url(../../images/lucency_icon/yzm01.jpg) repeat-x; color:#fff; border:none;}
 .n_order03b08 dt input.fr:hover{ background:#93d700;}
 .md{ padding:0 90px; overflow:hidden; border:1px solid #90c320; background:#f5f5f5; }
 .md .info_one{ padding:25px 35px; overflow:hidden;}

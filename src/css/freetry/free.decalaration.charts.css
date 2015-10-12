@@ -8,7 +8,7 @@
 .mfsy_img{ border-bottom:5px solid #ddd; overflow:hidden;}
 .mian{ width:1000px; margin:0 auto;}
 
-.tongji{ margin-top:25px; background:#f93; height:109px; background:url(../images/icon/mf_tjdd_01.jpg) no-repeat; position:relative;}
+.tongji{ margin-top:25px; background:#f93; height:109px; background:url(../../images/icon/mf_tjdd_01.jpg) no-repeat; position:relative;}
 .tongji span{ float:left; font-size:18px; font-weight:bold; color:#333; line-height:24px; position:absolute; top:36px;}
 .tongji span.post1{ left:108px;}
 .tongji span.post2{ left:404px;}
@@ -23,13 +23,13 @@
 
 .pim{ height:146px;}
 .pim_fl{ float:left; width:664px; height:146px; border-right:2px solid #dedede;}
-.pim_fl span{ display:block; width:564px; height:92px; margin:29px 0 0 35px; background:url(../images/icon/mf_tjdd_02.png) no-repeat;}
+.pim_fl span{ display:block; width:564px; height:92px; margin:29px 0 0 35px; background:url(../../images/icon/mf_tjdd_02.png) no-repeat;}
 .pim_fl span b{ float:left; font-size:18px; margin:40px 0 0 110px;}
 .pim_fl span s{ float:left; font-size:36px; font-family:"微软雅黑"; text-decoration:none; color:#fff; font-weight:bold; margin:23px 0 0 30px;}
 .pim_fr{ float:right; width:334px; height:112px; padding-top:34px; text-align:center;}
 .pim_fr span{ font-size:16px; font-weight:bold;}
-.pim_fr input.ljsq{ display:block; width:178px; height:49px; font-size:18px; color:#fff; font-weight:bold; margin:15px auto 0 auto; background:url(../images/icon/mf_tjdd_03.png) no-repeat;}
-.pim_fr input.ljsq1{ display:block; width:178px; height:49px; font-size:18px; color:#fff; font-weight:bold; margin:15px auto 0 auto; background:url(../images/icon/mf_tjdd_05.png) no-repeat;}
+.pim_fr input.ljsq{ display:block; width:178px; height:49px; font-size:18px; color:#fff; font-weight:bold; margin:15px auto 0 auto; background:url(../../images/icon/mf_tjdd_03.png) no-repeat;}
+.pim_fr input.ljsq1{ display:block; width:178px; height:49px; font-size:18px; color:#fff; font-weight:bold; margin:15px auto 0 auto; background:url(../../images/icon/mf_tjdd_05.png) no-repeat;}
 .pim_fr input.ljsq1:hover{ background:#93d700;}
 .did{ padding:45px 0;}
 .boxx{ margin-top:10px;}
@@ -51,5 +51,5 @@
 .boxx_fl .mf_table tbody.nohover:hover{border:none;}
 .boxx_fl .mf_table tbody tr div.pzy10{ padding:0 10px;}
 .boxx_fl .mf_table tbody tr a:hover{ color:#6fa300;}
-.boxx_fl .mf_table tbody tr input.zhict{ width:60px; height:30px; font-size:14px; color:#fff; cursor:pointer; background:url(../images/icon/mf_tjdd_04.png) no-repeat;}
+.boxx_fl .mf_table tbody tr input.zhict{ width:60px; height:30px; font-size:14px; color:#fff; cursor:pointer; background:url(../../images/icon/mf_tjdd_04.png) no-repeat;}
 .boxx_fl .mf_table tbody tr input.zhict:hover{ background:#93d700;}
