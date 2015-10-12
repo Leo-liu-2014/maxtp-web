@@ -15,8 +15,8 @@
 .sixin ul li p { line-height: 25px; overflow: hidden; }
 .sixin ul li p.padding60_45 { padding: 0 45px 0 60px; }
 .sixin ul li .margin60_45 { margin: 10px 45px 0 60px; }
-.sixin ul li p a.up_img { background: url(../images/icon/ty23.png) repeat-x; display: block; padding: 0 10px; float: left; border: 1px solid #ccc; color: #6fa300; height: 23px; line-height: 23px; }
-.sixin ul li p input.button { background: url(../images/lucency_icon/yzm01.jpg) repeat-x; color: #fff; padding: 0 10px; height: 25px; line-height: 23px; margin-left: 10px; }
+.sixin ul li p a.up_img { background: url(../../images/icon/ty23.png) repeat-x; display: block; padding: 0 10px; float: left; border: 1px solid #ccc; color: #6fa300; height: 23px; line-height: 23px; }
+.sixin ul li p input.button { background: url(../../images/lucency_icon/yzm01.jpg) repeat-x; color: #fff; padding: 0 10px; height: 25px; line-height: 23px; margin-left: 10px; }
 .sixin ul li div.imghang { padding: 5px; background: #f5f5f5; overflow: hidden; }
 .sixin ul li div.imghang a { display: block; }
 .sixin ul li div.imghang a.img { display: block; width: 85px; height: 50px; border: 1px solid #ccc; float: left; }

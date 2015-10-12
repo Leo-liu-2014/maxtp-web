@@ -17,7 +17,7 @@
 .surveyDevice div.box-a ul li div.listtext p { margin-bottom: 25px; }
 .surveyDevice div.box-a ul li p.Addcolumn { padding-left: 83px; margin-bottom: 0; clear: both; }
 .surveyDevice div.box-a ul li p a { padding-left: 10px; }
-.surveyDevice div.box-a ul li p.Addcolumn input { width: 80px; height: 25px; background: url(../images/lucency_icon/geren_03.jpg) repeat-x; color: #fff; line-height: 23px; cursor: pointer; }
+.surveyDevice div.box-a ul li p.Addcolumn input { width: 80px; height: 25px; background: url(../../images/lucency_icon/geren_03.jpg) repeat-x; color: #fff; line-height: 23px; cursor: pointer; }
 .surveyDevice div.box-a ul li p.Addcolumn input.end { background: #999999; color: #fff; }
 .surveyDevice div.box-a ul li div.w630 { width: 620px; margin-left: 10px; }
 .surveyDevice div.box-a ul li strong { font-weight: 400; padding: 0 10px 0 3px; }
@@ -47,20 +47,20 @@
 .dcImg .imgSi img { width: 670px; height: 380px; }
 /*增加新的问题*/
 .surveyDevice div.box-a div.Newproblems { height: 25px; line-height: 25px; }
-div.Newproblems input { line-height: 23px; color: #fff; background: url(../images/lucency_icon/geren_03.jpg) repeat-x; padding: 0 15px; margin-right: 5px; }
+div.Newproblems input { line-height: 23px; color: #fff; background: url(../../images/lucency_icon/geren_03.jpg) repeat-x; padding: 0 15px; margin-right: 5px; }
 div.Newproblems input:hover { background: #93D700; }
 .surveyDevice div.box-a div.Newproblems input.end { background: #999999; color: #fff; }
 .surveyDevice div.box-a.pbom25 { padding-bottom: 25px; }
 /*删除新的问题按钮*/
 .surveyDevice div.box-a ul li.del { text-align: right; }
-.surveyDevice div.box-a ul li.del input { color: #fff; background: url(../images/lucency_icon/data02.png) repeat-x; padding: 0 15px; margin-right: 15px; }
+.surveyDevice div.box-a ul li.del input { color: #fff; background: url(../../images/lucency_icon/data02.png) repeat-x; padding: 0 15px; margin-right: 15px; }
 /*单选按钮li*/
 .surveyDevice div.box-a ul li.reward span { margin-right: 30px; }
 .surveyDevice div.box-a ul li.surveyresult { margin-bottom: 0; }
 .surveyDevice div.box-a ul li.surveyresult span { margin-right: 30px; }
 /*预览box*/
-.surveyDevice h2.yl input { height: 30px; font-size: 14px; color: #fff; background: url(../images/lucency_icon/data02.png) repeat-x; padding: 0 15px; margin-right: 10px; }
-.surveyDevice h2.yl input.bggreen { background: url(../images/lucency_icon/yzm01.jpg) repeat-x; }
+.surveyDevice h2.yl input { height: 30px; font-size: 14px; color: #fff; background: url(../../images/lucency_icon/data02.png) repeat-x; padding: 0 15px; margin-right: 10px; }
+.surveyDevice h2.yl input.bggreen { background: url(../../images/lucency_icon/yzm01.jpg) repeat-x; }
 .surveyDevice h2.yl { font-size: 12px; vertical-align: text-bottom; padding-left: 35px; }
 .surveyDevice h2.yl input:hover { background: #f39700; }
 .surveyDevice h2.yl input.bggreen:hover { background: #93D700; }
@@ -70,7 +70,7 @@ div.Newproblems input:hover { background: #93D700; }
 .surveyDevice div.box-a .rewardbox table tr th { background: #eee; border: 1px solid #ccc; line-height: 30px; font-weight: 400; }
 .surveyDevice div.box-a .rewardbox table tr td { line-height: 80px; border: 1px dashed #ccc; }
 .surveyDevice div.box-a .rewardbox table tr td.name { font-weight: bold; color: #f60; font-size: 14px; }
-.surveyDevice div.box-a .rewardbox table tr td.name span { padding: 2px 15px; background: url(../images/lucency_icon/gren_01.png) no-repeat; }
+.surveyDevice div.box-a .rewardbox table tr td.name span { padding: 2px 15px; background: url(../../images/lucency_icon/gren_01.png) no-repeat; }
 .surveyDevice div.box-a .rewardbox table tr td.name span.tyb { background-position: -50px 2px; }
 .surveyDevice div.box-a .rewardbox table tr td.name span.msjf { background-position: 3px 2px; }
 .surveyDevice div.box-a .rewardbox table tr td.h30 { line-height: 24px; padding: 5px 0; }
