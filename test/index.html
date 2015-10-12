@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Qunit</title>
+    <script type="text/javascript" src="../src/js/sea.js"></script>
+		<script type="text/javascript" src="../src/js/jquery.min.js"></script>
+		<meta charset="utf-8">
+		<style type="text/css">
+			.pass {
+				background:green;
+				color:#fff;
+				border: none;
+			    border-radius: 5px 5px 5px;
+			    outline: none !important;
+			    width: 80px;
+			    line-height: 20px;
+			    margin: 0 5px;
+			}
+		</style>
+  	</head> 
+  	<body>
+  		这是测试页面。
+  		<a href="#" onclick="">11111111111s</a>
+  	  <input type="button" value="这里是pass按钮" class="passs">
+  	</body>
+  	<script type="text/javascript">
+      seajs.use('../src/js/login/login',function(){
+          var a = seajs.require('login');
+
+          a.demo("111");
+
+      });
+
+    </script>
+</html>

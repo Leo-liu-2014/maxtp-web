@@ -1,0 +1,2 @@
+/*! by baozi 2015-09-16 */
+define(function(a,b,c){function d(){f=h(window).width(),g=h(window).height()}function e(){h("body #wstatus").css({left:f/2-(h("#wstatus").width()+18)/2+"px",top:g/2-(h("#wstatus").height()+18)/2+"px"})}var f,g,h=a("jq");h(window).resize(function(){d(),e()}),d(),c.exports={popup:function(a){alert(a)}}});

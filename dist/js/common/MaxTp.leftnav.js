@@ -1,0 +1,2 @@
+/*! maxtp 2015-10-08 */
+define(function(a,b,c){var d=a("jq");c.exports={leftNav:function(a){d("#"+a+" li").on("click",function(){d(this).find("div")&&"none"!=d(this).find("div").css("display")?(d(this).find("div").slideUp(),d(this).find("div").prev().find("i").removeClass().addClass("bg2")):(d(this).find("div").prev().find("i").removeClass().addClass("bg1"),d(this).find("div").slideDown())}),d("#"+a+" li").find("div.list").on("click",function(a){a.stopPropagation(),d(this).show()})}}});
