@@ -1,3 +1,3 @@
-#美试网前端资源v1.0
+# Maxtp Web Resources v1.0
 
 
