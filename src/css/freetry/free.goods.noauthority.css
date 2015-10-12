@@ -1,0 +1,21 @@
+﻿/*
+    免费试用-没有权限查看
+    使用范围：
+    2015/09/29
+    by    zhangzhiguang
+*/
+
+body {line-height: 1.5; font-family:"Microsoft YaHei";background:#f5f5f5;font-size:12px;}
+
+/*页面主体样式*/
+.baby_details_wrap{width:1000px;margin:0 auto;height:auto;}
+.b_d_crumbs{width:1000px;float:left;font-size:12px;margin:30px 0;}
+.b_d_crumbs a{color:#333;}
+.b_d_crumbs .text_green{color:#6fa300;}
+.baby_cs p span.w350{width:420px;}
+.area_a{width:1000px;float:left;height:440px;background:#fff;box-shadow: 3px 3px 3px 0px lightgray;}
+/*产品已删除*/
+.aldelete{ background:#fff; padding:100px 0; clear:both; box-shadow:2px 2px 3px #eee; text-align:center;}
+.aldelete p{ text-align:center; font-size:16px; color:#ff6600;}
+.aldelete span.top10{ margin-right:50px; line-height:60px;}
+.baby_details_wrap .aldelete p span{ background:url(../images/icon/brand_rightBox_icon.png) no-repeat scroll -265px 5px; margin-right:3px; }

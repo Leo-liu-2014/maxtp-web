@@ -1,0 +1,28 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*
+    免费试用-订单提交成功去支付
+    使用范围：
+    2015/09/29
+    by    zhangzhiguang
+*/
+.main h1.minf{ border-bottom:1px solid #000; font-size:18px; line-height:30px; font-weight:800; margin:10px 0;}
+
+.bolod_top{ padding:20px 0; background:#f9f9f9; text-align:center;}
+.bolod_top span{ display:inline-block; height:35px; line-height:35px; margin:0 10px;}
+.bolod_imga{ padding-left:42px; font-size:18px; font-weight:bold; color:#690; background:url(../images/lucency_icon/duig.png) no-repeat;}
+.bolod_imgb{ font-size:14px; color:#f60; background:url(../images/icon/mf_a_02.png) no-repeat 0 5px; padding-left:18px;}
+
+table.bolod{ width:100%; font-size:14px; color:#6d6d6d; border:1px solid #690; border-collapse:collapse;}
+table.boloda{ border-bottom:1px solid #ccc;}
+table.bolod thead{ background:#f4fbe5;}
+table.bolod thead tr th{ border:1px solid #690; height:35px; font-size:14px; font-weight:normal;}
+table.bolod tbody tr td{ height:75px; border:1px dashed #ccc;}
+.n_numberc p.n_numberc01{ background:#eaeaea; font-size:14px; font-weight:bold; color:#6d6d6d; line-height:45px; padding:0 30px;}
+.n_numberc_bot{ padding:10px 30px; border:1px solid #6fa300; border-top:none;}
+.n_numberc_bot p{ line-height:30px; font-size:14px; color:#6d6d6d;}
+.numberc_center{ text-align:center; margin:30px 0;}
+.numberc_center .input_100{ padding:0 20px; height:30px; background:url(../images/lucency_icon/yzm01.jpg) repeat-x; border:none; font-size:14px; color:#fff; margin:0 20px;cursor: pointer;}
+.numberc_center .input_101{ padding:0 20px; height:30px; background:url(../images/lucency_icon/yzm08.jpg) repeat-x; border:none; font-size:14px; color:#666; border:1px solid #ccc; margin:0 20px;cursor: pointer;}
+.numberc_center .input_100:hover{ background:#93d700;}
+.numberc_center .input_101:hover{ background:#93d700;}

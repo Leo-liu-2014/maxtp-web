@@ -1,0 +1,108 @@
+﻿/*
+    免费试用-确认订单信息
+    使用范围：
+    2015/09/29
+    by    zhangzhiguang
+*/
+
+.main h1.minf{ border-bottom:1px solid #000; font-size:18px; line-height:30px; font-weight:800; margin:10px 0;}
+input.w_input{ font-size:14px; padding:0 25px; height:30px; background:url(../images/lucency_icon/data02.png) repeat-x; color:#fff; border:none;}
+input.w_input.w190{ width:194px; padding:0; margin-left:5px;}
+input.w_input:hover{ background:#f39700;}
+.n_order .weiz{ font-size:12px; border-bottom:1px solid #8fc31f; line-height:60px;}
+.drink{ position:relative;}
+.drink h2{ float:left; color:#fff; min-width:90px; text-align:center; padding:0 14px 0 12px; height:26px; line-height:26px; background:#8fc31f;}
+.drink span.bj{ float:left; width:8px; height:26px; background:url(../images/lucency_icon/order_information_01.png) right no-repeat;}
+.drink span{ line-height:26px;} 
+.drink input.input125{ position: absolute; top:-8px; right:0; font-size:14px; padding:0 15px; height:30px; background:url(../images/lucency_icon/data02.png) repeat-x; color:#fff; border:none;}
+.n_order p.green{ font-size:16px; margin:30px 0 30px 0; font-weight:bold;}
+.n_order p.green span{ float:right; font-size:14px; height:17px; color:#f60; background:url(../images/icon/yzm25-01.jpg) no-repeat 0 2px; padding-left:40px;}
+.n_order p.green span.fize12{ height:17px; line-height:17px; font-size:12px; background: url(../images/lucency_icon/yzm15.png) no-repeat; padding-left:25px; margin-right:200px;}
+.n_order p.green span em{ color:#333;}
+.n_order01{ clear:both; width:1000px; border:1px solid #8fc31f; padding:25px 0;}
+.padding_10{ width:990px; height:60px; border:1px solid #8fc31f; padding:5px;}
+.n_order01a{ border-bottom:1px dashed #8fc31f; font-size:14px; padding-bottom:10px;}
+table.tab_noe{ width:1000px; border-collapse:collapse;}
+table.tab_noe thead{ background:#f4fbe5;}
+table.tab_noe thead th{ height:34px; font-weight:normal; font-size:12px; color:#333; border:1px solid #c2de86;}
+table.tab_noe tbody{ border:1px solid #c2de86;}
+table.tab_noe tbody .no_tborder{ border-top:none;}
+table.tab_noe tbody .gray_bborder{ border-bottom:1px solid #ccc;}
+table.tab_noe tbody td{ font-size:14px; border-right:1px dotted #ccc; height:105px;}
+table.tab_noe tbody tr.h_37 td{ height:30px; background:#f9f9f9; padding:0 10px;}
+table.tab_noe tbody tr.h_37 td span{ margin-right:25px; font-size:12px;}
+table.tab_noe tbody tr.h_70 td{ height:70px;}
+table.tab_noe tbody tr.h_70 td span{ width:330px; display:inline-block;}
+table.tab_noe tbody td.mc_span{ padding:0 10px;}
+table.tab_noe tbody td.mc_span span{ width:180px; line-height:28px; margin-top:12px;}
+.padding_bottom{ padding-bottom:10px;}
+.n_order01a li form.site p{ height:47px; line-height:47px; padding:0 100px;}
+.n_order01a li form.site p.lvs{ background:#f6fcea;}
+.n_order01a li form.site p.lvs em.mor{ position: relative; left:-180px; font-size:12px; color:#6fa300;}
+.n_order01a li form.site p.b_lvs{ height:auto; margin:10px 0; line-height:30px; padding:10px 100px;}
+.n_order01a li form.site p.b_lvs .default{ left:0px; top:8px; position:absolute; display:block; width:14px; height:14px; cursor:pointer;}
+.n_order01a li form.site p.b_lvs:hover{ background:#f5f5f5;}
+.n_order01a li form.site p.lvs:hover{ background:#f6fcea;}
+.n_order01a li form.site p label{ margin-right:10px;}
+.n_order01a li form.site p label a{ color:#333;}
+.n_order01a li .fl p span.width200{ width:200px;}
+.n_order01a li form.site p.b_none{ background:none;}
+.n_order01a li form.site p.b_lvs span.clear{ float:left; padding-left:16px;}
+.n_order01a li form.site p.b_lvs span.clear em{ margin-right:70px;}
+.n_order03b08{ width:820px; background:#f9f9f9; padding:0 90px;}
+.n_order03b08 dt,.n_order03b08 dd{ float:left; padding:10px 0; width:820px; text-align:left; border-bottom:1px dotted #6fa300; font-size:14px; color:#333; line-height:24px;}
+.n_order03b08 dt input{ height:25px; padding:0 10px; margin-top:11px; background: url(../images/lucency_icon/data03.jpg) repeat-x; border:none; color:#fff; font-size:14px;cursor: pointer;}
+.n_order03b08 dt input:hover{ background:#f39700;}
+.n_order03b08 dt span{ margin-left:15px; margin-right:15px;}
+.n_order03b08 dt p,.n_order03b08 dd p{ float:left; margin-right:15px; color:#6fa300;}
+.n_order03b08 dd{ border:none;}
+.n_order03b08 dd em{ float:left; font-size:12px; color:#f60;}
+.n_order03b08 dd input{ margin-top:10px; float:right; padding:0 50px; height:30px; font-size:14px; background: url(../images/lucency_icon/yzm01.jpg) repeat-x; color:#fff; border:none;}
+.n_order03b08 dd input:hover{ background:#93d700;}
+.fla p{ margin-bottom:20px;}
+.fla p span{ margin-right:15px;}
+.fla p em{ color:#6fa300;}
+.fla .width740{ padding:15px; width:710px; background:#f9f9f9; margin:0 auto;}
+.fla .width740 li{ float:left; width:710px; margin:10px 0; position:relative;}
+.fla .width740 li .textError{position:absolute; background:none; border:none; bottom:-39px; left:90px; float:left; padding-left:25px; line-height:20px; height:20px; color:#f60; background:url(../images/icon/zhu3.png) no-repeat scroll 2px 3px; display:none;}
+.fla .width740 li label.fl_lft{ float:left; width:90px; text-align:right; line-height:30px;}
+.fla .width740 li label.fl_lft em{ position: relative; top:2px;}
+.fla .width740 li input{ float:left; line-height:30px; border-radius:2px; border:1px solid #a0a0a0}
+.fla .width740 li input.input145{ width:145px; height:28px;}
+.fla .width740 li select.select120{float:left; height:30px; border-radius:2px; line-height:30px; border:1px solid #a0a0a0; width:120px; margin-right:5px;}
+.fla .width740 li textarea.input470{ width:540px; height:65px; margin-right:10px;}
+.fla .width740 li input.input180{ width:189px; height:28px;}
+.fla .width740 input.input125{ float:right; margin-right:80px; font-size:14px; padding:0 15px; height:30px; background:url(../images/lucency_icon/data02.png) repeat-x; color:#fff; border:none;}
+.fla .width740 input.input125:hover{ background:#f39700;}
+.tab_noe tbody tr td .border_img a.f_l{ margin-left:10px;}
+.tab_noe tbody tr td .border_img p.w180{ display:block; width:180px; text-align:left; margin:10px 0 0 10px; line-height:28px;}
+.tab_noe tbody tr td .border_img p.w180 a{ color:#333;}
+
+/*提示框样式*/
+.wxts{ width:400px; background:#99cc00; padding:0 10px 10px 10px; position:relative;}
+.wxts_text{ background:#fff; box-shadow:2px 2px 3px #333; padding:35px 0; text-align:center; font-size:14px; line-height:24px;}
+.wxts_text span{ color:#f60;}
+.wxts_text p input{ min-width:95px; padding:0 15px; margin:0 10px; height:30px; color:#fff;}
+.wxts_text p input.b_lvs,.wxts_text p input.l_bj{ background:url(../images/lucency_icon/yzm01.jpg) repeat-x;}
+.wxts_text p input.b_lvs:hover,.wxts_text p input.l_bj:hover{ background:#93d700;}
+.wxts_text p input.b_hse,.wxts_text p input.h_bj{ background:url(../images/lucency_icon/data02.png) repeat-x;}
+.wxts_text p input.b_hse:hover,.wxts_text p input.h_bj:hover{ background:#f39700;}
+.share h2 a,.wxts h2 a,.wxtsa h2 a,.yulan h2 a,.tjts h2 a{ width:14px; height:14px; background:url(../images/icon/oClose_X.png) no-repeat 0 -22px; margin-top:14px; position: absolute; right:10px;}
+#wxts_one1,#wxts_one2,#wxts_one3,#wxts_one4,#wxts_one5,#wxts_one6{ display:none; position:absolute; z-index:999;}
+#wxts_two1,#wxts_two2,#wxts_two3,#wxts_two4,#wxts_sy1,#wxts_sy2{ display:none; position:absolute; z-index:999;}
+#report,#shanc1{ display:none; position:absolute; z-index:999;}
+.md{ padding:0 90px; overflow:hidden; border:1px solid #90c320; background:#f5f5f5; }
+.md .info_one{ padding:25px 35px; overflow:hidden;}
+.md .info_one p{ padding:0 10px 15px 10px;  border-bottom:1px dashed #6fa300; font-size:14px;}
+.md .info_one span{ padding-right:10px; color:#6fa300; font-size:14px; font-weight:bold;}
+.md .info_one div.standard{ padding:15px 0px 0 10px; overflow:hidden;}
+.md .info_one div.standard span{ float:left;font-size:14px; }
+.md .info_one div.standard.pos{ position:relative;}
+.md .info_one div.standard.pos ul{ position:absolute; left:100px; top:0;}
+.md .info_one ul{ float:left; width:670px;}
+.md .info_one ul li{ float:left; width:160px; font-size:14px; height:30px; line-height:20px;}
+.md .info_one ul li.r_o{ width:150px;}
+.md .info_one ul li.date_set{ position:relative;}
+.md .info_one ul li.date_set span{ position:absolute; left:0; top:0; color:#333333; font-size:14px; display:block; width:300px; font-weight:400;}
+#bfh{ position:relative; position:absolute;z-index:999; display:none;}
+.share h2,.wxts h2,.wxtsa h2,.yulan h2,.tjts h2{ height:36px; text-align:center; color:#fff; line-height:36px; font-size:14px;}

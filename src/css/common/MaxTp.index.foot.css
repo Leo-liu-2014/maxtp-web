@@ -1,0 +1,34 @@
+﻿@charset "utf-8";
+/*
+    公共页脚
+    使用范围：
+    2015/10/10
+    by    zhangzhiguang
+*/
+.footer{ width:100%;}
+.footer .advantage{ background:#ebebeb; height: 145px;}
+.footer-mid{ background: #333333; overflow: hidden;}
+.footer-mid .midList{ float: left; min-width:180px;}
+.footer-mid .midList h3{ font-size: 18px; color: #999; height: 40px;}
+.footer-mid .midList ul li{ line-height:24px;}
+.footer-mid .midList ul li a{ font-size:14px; color: #999;}
+.footer-mid .midList ul li a:hover{ color: #ccc;}
+.footer-mid .weChatFocus{ position:absolute; right:0; top:0; width: 285px;}
+.footer-mid .weChatFocus img{ float: left;}
+.footer-mid .weChatFocus div.focusTitle{ color:#6fa300; float: left;  margin-left:30px;}
+.footer-mid div.focusTitle h3{ color:#6fa300;  font-size: 18px; height: 24px;}
+.footer-mid div.focusTitle p{ color:#999; line-height:24px;}
+.footer-mid div.focusTitle div.footerShare{ background: #fff; height: 30px; line-height: 30px;}
+.friendLink{ overflow: hidden; color:#999; line-height:20px; }
+.friendLink a{ color: #999;  font-size: 12px;   overflow: hidden;}
+.friendLink a:hover{ color: #ccc;}
+.friendLink font{ padding:0 5px;}
+.footer-bottom p{ text-align: center; overflow: hidden; line-height: 14px; font-size: 13px; color: #666;}
+.footer-bottom div{ text-align: center;line-height: 24px; color:#666;  }
+.footer-bottom div font{ padding:0 5px;}
+.footer-bottom p a{ padding:0 5px; font-size: 12px;}
+/*firstpage-footer.html*/
+.footer-mid .weChatFocus { background: url('../../images/bannk/ewm_2.jpg') left top no-repeat; background-size: 115px; height: 120px; width:145px; padding-left:140px;}
+.friendLink { text-align:justify;}
+.friendLink a { white-space:nowrap;}
+.footer-bottom div span { padding:0 5px;}

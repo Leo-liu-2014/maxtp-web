@@ -1,0 +1,248 @@
+/***********************************用户后台 我的账户******************************************/
+/*张杨 2015/09/29*/
+/*公共头部*/
+.account-daohang ul li:hover{background-color: #379300;}
+
+/*用户后台 我的账户 账户首页*/
+/*张杨 2015/09/29*/
+.grayBg{background:#f5f5f5;}
+.simpleTable .type_account i{line-height: 30px;margin-left: 5px;}
+.paddingl_40{padding-left: 40px;}
+.zh_topimg {background: url(../../images/img/zh_top.png) no-repeat;height: 50px;line-height: 50px;}
+.zh_topimg1{background: url(../../images/img/zh_top.png) no-repeat;height: 50px;line-height: 50px;}
+table.simpleTable.w690{width: 690px;}
+table.simpleTable tbody tr td.textleft{text-align: left;padding-left: 25px;}
+
+/*用户后台 我的账户 账户记录*/
+/*张杨 2015/09/29*/
+.type_account{width: 100px;margin: 0 auto;}
+.type_account span.y_type1{background: url(../../images/icon/daohang.png) no-repeat -305px -35px;}
+.type_account span.y_type2{background: url(../../images/icon/daohang.png) no-repeat -379px -35px;}
+.type_account span.y_type3{background: url(../../images/icon/daohang.png) no-repeat -464px -35px;}
+.type_account span.y_type0{background:url(../../images/icon/daohang.png) no-repeat -234px -107px;}
+.box h2 {margin: 25px 0;}
+.margin40 {margin: 0 40px;}
+.margin_20{margin: 20px;}
+input.yback_yellow{ background:url(../../images/icon/ymz_013.png) repeat-x; width:80px; height:30px; color:#fff;}/*橙按钮背景25*/
+input.w120{width: 120px;height: 25px;}
+input.w160{width: 160px;height: 25px;}
+.margin10 {margin: 0 10px;}
+.paddingleft30{padding-left: 30px;}
+table.simpleTable tr th span.h40{height: 40px;display: inline-block;}
+table.simpleTable tr th span.s_tiyan{background: url(../../images/icon/tiyanzhi.png) no-repeat 0px center;}
+table.simpleTable tr th span.s_yuanbao{background: url(../../images/icon/yuanbao.png) no-repeat 0px center;}
+table.simpleTable tr th span.s_xunzhang{background: url(../../images/icon/shoucang.png) no-repeat 5px center;}
+table.simpleTable tr th span.s_jifen{background: url(../../images/icon/jifen.png) no-repeat 0px center;}
+table.simpleTable tr td.noline {height: 68px;line-height: normal;border-top: 0;border-bottom: 1px solid #8fd100;}
+
+/*用户后台 我的账户 充值中心*/
+/*充值中心-充值记录*/
+/*张杨 2015/09/29*/
+.rechargetit{ height:40px; background:url(../../images/button/rechargetit.png) no-repeat; line-height:40px; padding-left:20px; color:#fff; font-weight:bold; font-size:16px;}
+.lt_search_recharge{ margin:0 10px;*margin:20px 10px 0px 10px; padding-bottom:10px; zoom:1; overflow:hidden;}
+.lt_search_recharge .search_title{ height:25px; line-height:25px; overflow:hidden; }
+.lt_search_recharge .search_title span{ float:right; width:80px; display:block; height:25px; background:url(../../images/lucency_icon/data03.jpg) repeat-x; border-radius:3px;}
+.lt_search_recharge .search_title span:hover{ background:#f39700;}
+.lt_search_recharge .search_title span input{ border:0px; background:none; color:#FFF; font-size:12px;font-family:"微软雅黑"; text-align:center; width:100%; height:25px; line-height:23px;}
+.search_show_recharge{ margin-bottom:10px; overflow:hidden;}
+.search_show_recharge ul li{ float:left; display:inline; height:25px; line-height:25px; padding:10px 3px 10px 0px; }
+.search_show_recharge ul li label{ width:100px; height:25px; line-height:25px;display:block; float:left;}
+.search_show_recharge ul li label span{ float:right; font-size:12px; font-family:"微软雅黑"; text-align:right;}
+.search_show_recharge ul li select{ width:130px; height:24px; line-height:24px; border: 1px solid #ccc;}
+.search_show_recharge ul li em{ float:left; padding:0 5px;}
+.search_show_recharge ul li input{ float:left; border:1px solid #cccccc; width:180px; padding:0 5px; height:23px; line-height:23px;}
+.search_show_recharge ul li input.w140{ width:132px;padding:0 5px;}
+
+.dashed{height: 1px;border-top: 1px dashed #ccc;margin-top: 50px;}
+.ertips{padding:50px 10px;text-align: center;}
+.ertips .advert{margin-top: 50px;}
+.ertips .advert.top90{margin-top: 90px;}
+.ertips h3{ display: inline; font-size: 20px; font-weight: bold;  background: url(../../images/lucency_icon/duig2.png) no-repeat; padding:3px 0px 3px 40px;}
+.ertips h3.fail2{ display: inline; font-size: 20px; font-weight: bold;  background: url(../../images/icon/false-icon.png) 0 5px no-repeat; padding:3px 0px 3px 40px;}
+.ertips h4{ display: inline; font-size: 20px;  background: url(../../images/icon/hourglass.png) no-repeat; padding:5px 0px 5px 30px;}
+.ertips .advert div.w600{ width: 600px; margin:20px auto 0; text-align: left;} 
+.ertips .advert div.w600 a{ margin-right:70px;}
+.ertips p.btn input[type=button]{ background: url(../../images/lucency_icon/yzm01.jpg) repeat-x; color: #fff; padding: 0 25px; height: 30px; line-height:28px;}
+
+/*充值中心-我的账户-体验宝、vip*/
+/*张杨 2015/09/29*/
+.w195{ width: 195px;}
+.charend .Actio span{ display: block; float: left; width: 4px; height: 4px; background: #ff0000; margin-top: 8px; margin-right: 5px;}
+.charend .Actio p{ float: left; width: 165px; line-height:20px;}
+.charend{border:3px solid #ff9900; overflow: hidden; background: #fff;}
+.charend .plain{ height: 56px;  line-height:56px; background: #f3ffd8; border: 1px solid #99cc00; text-align: center; font-size: 16px; font-weight: bold;}
+.charend .Actio{ padding:20px 10px 10px 10px; height: 240px;}
+.charend .Actio2{ padding:20px 10px 10px 10px; height:490px;}
+.charend .commonAsk{ line-height: 24px; padding:10px; }
+.charend .commonAsk a{ display: block;}
+.charend .w795{ width: 796px; height: 100%;border-left: 3px solid #ff9900;}
+.recharone{ padding:30px 0px 30px 0px;}
+.recharone ul li{ line-height:26px; margin-top:20px; font-size: 14px; position:relative}
+.recharone ul li span{ display: block; width: 120px; text-align: right; float: left; font-size:14px; }
+.recharone ul li.charobj{ overflow: hidden; margin-top:30px; line-height: 40px;}
+.recharone ul li.charobj a{display:block; width: 120px; padding-left:30px; height: 40px;  line-height: 40px; font-size:16px; font-weight: bold; color: #333;border: 1px solid #ccc; float:left; text-align:center; margin-right:15px; position: relative;}
+.recharone ul li.charobj a i.acer{ display:block;width:26px; height: 24px; position: absolute; left:30px; top:7px;background:url(../../images/icon/rechargeAcer.png) no-repeat;}
+.recharone ul li.charobj a i.ok{ background:url(../../images/icon/rechargeOk.png) no-repeat; display: none; position: absolute; right: 0px; bottom:0px; width: 25px; height: 21px;}
+.recharone ul li.charobj a.on{ border: 1px #f60 solid; background: #fffcf5;}
+.recharone ul li.charobj a.on .ok{display:block;}
+.recharone ul li.charobj a i.vip{ display:block;width:26px; height: 24px; position: absolute; left:30px; top:10px;background:url(../../images/icon/brand_rightBox_icon.png) no-repeat scroll -511px -177px;}
+.recharone1 ul li.charobj a i.acer{ display:block;width:26px; height: 24px; position: absolute; left:30px; top:7px;background:url(../../images/icon/rechargeAcer.png) no-repeat;}
+.recharone ul li.czNum{ margin:30px 0}
+.recharone ul li.czNum .miniUl{ line-height:14px;}
+.recharone ul li.czNum .miniUl div{ margin:7px 0 20px 0}
+.recharone ul li.czNum .miniUl div input{vertical-align: bottom;}
+.recharone ul li.bankli{ line-height: 42px;}
+.recharone ul li font.size22{ font-size: 22px;font-weight: bold;}
+.w638{width: 638px;}
+.agreenBtn:hover{background: #99cc00; cursor: pointer;}
+.grayBg{background: #ccc;}
+
+/*充值中心-充值成功*/
+/*张杨 2015/09/29*/
+.w300{ width: 300px;}
+.w682{ width: 682px;}
+.greenBor{ border:1px solid #90c320;}
+.rechargetit{ height:40px; background:url(../../images/button/rechargetit.png) no-repeat; line-height:40px; padding-left:20px; color:#fff; font-weight:bold; font-size:16px;}
+.recharTitle{ color:#fff; height:26px; padding:0 15px; float:left; line-height:26px; background:url(../../images/button/subyellow.png) no-repeat scroll right top; font-size:14px;}
+.recharTitle.bggreen{
+	background:url(../../images/button/titleSub.png) no-repeat scroll right top;
+}
+.write{ border: 1px solid #ff6633; line-height:24px; padding:0 10px; display: none; position: absolute; background: #fff;}
+.stae{ padding: 20px 20px 0px 20px; height:626px;}
+.stae.h486{ height: 486px;}
+.stae.h433{ height: 433px;}
+.stae div.statetop{ line-height:32px; font-size:20px; padding-left:40px; margin-left:100px; font-weight: bold;}
+.stae div.statetop p.yellow{ line-height:31px; font-size:12px;   font-weight:normal;}
+.stae div.statetop.markTan{background: url(../../images/lucency_icon/tan1.png) no-repeat; }
+.stae div.statetop.markFork{background: url(../../images/lucency_icon/cha1.png) no-repeat; }
+.stae div.statetop.s_red{background: url(../../images/lucency_icon/cha.png) no-repeat; }
+.stae div.statetop.markOk{background: url(../../images/lucency_icon/duig2.png) no-repeat; }
+.stae div.topline{ margin:40px 30px;}
+.stae div.topline1{ margin:30px 30px;}
+.stae ul.list{ width: 360px; padding-left:0px; margin:0 auto;}
+.stae ul.list li{ font-size: 14px; line-height:24px; margin:10px 0 ; overflow: hidden;}
+.stae ul.list li p{ float: left; width: 285px;}
+.stae ul.list li span{ float:left; display: block;}
+.stae ul.list li font{ font-size:16px; margin-right:3px;}
+.stae ul.list li.objcz div.bgyellow{ float: left; background: #ff9900; color: #fff; text-align: center; width: 90px;}
+.useHeadpro{ margin: 20px 12px 10px 12px; float: left;}
+ul.usePayeeInfo{ float:left; width: 210px; padding:20px 10px 0px 0px; }
+ul.usePayeeInfo li{  height:35px; font-size: 14px;}
+div.comAsk{ padding: 25px; line-height: 35px;}
+div.comAsk a{ display: block;}
+div.comAsk a.fp{ text-align: right;}
+
+/*用户后台-我的账户-赠送中心*/
+/*张杨 2015/09/29*/
+/*选项卡页签样式*/
+.Menubox {width: 1000px;float: left;margin-top: 20px;position: relative; bottom: -1px;margin-left: 23px;}
+.Menubox ul{ overflow:hidden; width:100%; }
+.Menubox li{ display:inline;border:0px; background:none; overflow:hidden;}
+.Menubox li.hover a{ font-weight:bold; color:#6fa300;background:#fff; height:39px; border:1px solid #93d700;border-bottom:1px solid #fff; position:relative; z-index:25 }
+.Menubox li a {min-width: 90px;height: 40px;cursor: pointer;font-size: 14px;color: #999;float: left;text-align: center;line-height: 40px;margin: 2px 15px 0 0;padding: 0 15px;vertical-align: middle;background: #d4d4d4;border-radius: 8px 8px 0 0;}
+
+/*左侧栏样式*/
+.yellowB {border: 1px solid #ff9933;}
+.y_givecenter div.y_tiyan, .y_givecenter1 div.y_tiyan {height: 70px;line-height: 70px;border-bottom: 1px solid #90e303;background-color: #f4ffdc;}
+.zengsongBg {background: url(../../images/img/zengsongBg1.png) no-repeat;width: 202px;height: 128px;text-align: center; line-height: 128px;}
+.y_giveliwu {background: url(../../images/icon/daohang03.png) no-repeat 0 5px;padding-left: 30px;}
+span.point1 {display: block;width: 5px;height: 5px;background: #ff0000;float: left;margin: 8px 8px 0 0;}
+.y_givecenter1 div.y_tiyanwt {margin: 0px 20px;padding-top: 20px;border-top: 1px dashed #ccc;}
+.yback_green {background: url(../../images/icon/ymz_011.png) repeat-x;width: 80px;height: 30px;color: #fff;}
+.wz950{width: 950px;margin: 0 auto;}
+select.w120 {width: 120px;height: 25px;}
+.y-borderbottom{border-bottom: 1px dashed #c9c9c9; }
+.brpr_3 dl{ padding:10px; text-align:center; line-height:18px;}
+.brpr_3 dl.pad8_0{ padding:8px 0;}
+.w135{width: 135px;}
+.y_givecenter div.y_tiyanwt ul li, .y_givecenter1 div.y_tiyanwt ul li { padding-top: 8px;}
+
+/*右侧详情 发起赠送样式*/
+.cont1 {width: 680px;height: 363px;border: 1px solid #99cc00;float: right;overflow: hidden;background: #f9f9f9;}
+.cont1.w794{width:794px;min-height:469px;}
+.cont1 div.contid img {padding: 10px 20px 10px 100px;}
+.cont1 .onh.fhnake {padding: 30px 0px 0px 10%;}
+.cont1 .ont .p1{font-size: 20px;font-weight: bold;}
+.cont1 div.contid img{padding: 10px 20px 10px 100px;}
+.cont1 div.contid,.cont1 div.receive_id{height: 70px;background-color: #f8ffef;border-bottom: 1px solid #99cc00;}
+.cont1 div.contid span,.cont1 div.receive_id span{display: inline-block;line-height: 70px;}
+.cont1 div.receive_id img{padding: 10px 20px 10px 40px;}
+.cont {border: 1px solid #99cc00;clear: both;overflow: hidden; background: #f9f9f9;position: relative;}
+.cont .ont.fhnake {padding: 30px 0px 35px 20px;margin: 0px 20px 0px 20px;}
+.cont .ont.fhnake.padding_bottom20{padding-bottom: 20px;}
+.cont .ont .p1 {font-size: 20px;font-weight: bold;padding-bottom: 15px;}
+
+.inright .imgtop {border: 1px solid #ccc;box-shadow: 2px 2px 3px #eee;}
+.inright .binfo.overauto {overflow: inherit;}
+.inright .binfo {border: 1px solid #ccc;overflow: hidden;padding-bottom: 15px;}
+.inright .mation { float: left; width: 152px;padding: 17px 24px;margin: 15px 0 0 0;border-right: 1px solid #ccc;}
+.inright .mation a.block {width: 100%;display: block;height: 30px;line-height: 30px;background: url(../../images/lucency_icon/yzm01.jpg) repeat-x;text-align: center;color: #fff;}
+.inright .mation img {border: 1px solid #ccc;}
+.inright .binfo .ppphd {width: 400px;margin-left: 30px;margin-top: 32px;}
+.inright .binfo .ppphd h3.relative {position: relative;}
+.inright .binfo .ppphd h3.relative a {display: inline-block;width: 15px;height: 15px;background: url(../../images/icon/mfsy_icon.png) no-repeat;top: -5px;position: relative;}
+.inright .binfo .ppphd h3.relative a div {display: none;padding: 10px;border: 1px solid #f60;position: absolute;left: 20px; bottom: 12px;width: 180px;background: #fff;line-height: 20px;font-size: 12px;color: #999;}
+.inright .binfo .ppphd .ppphd_del {width: 380px;}
+.inright .binfo .ppphd .ppphd_del .ppphd_du {width: 285px;background: #f9f9f9;}
+.inright .binfo .ppphd .ppphd_del .ppphd_du span.color_4{width:78.5%;}
+.inright .binfo .ppphd .ppphd_del .ppphd_du span.color_5{width:20.3%;}
+.inright .binfo .ppphd .ppphd_del .ppphd_du span.color_6{width:9.4%;}
+
+.infoaText {overflow: hidden;}
+.ppphd {width: 350px;height: 190px;float: left;margin-top: 10px;}
+.ppphd h3 {font-size: 14px;margin: 10px 0 10px 15px;font-weight: bold;}
+.ppphd_del { width: 320px;margin: 0 0 15px 20px;float: left;}
+.ppphd_del span {width: 40px;text-align: right;margin-right: 5px; line-height: 26px;vertical-align: middle;}
+.ppphd_du {width: 230px;height: 26px;float: left;margin-right: 10px;}
+.ppphd_del span {width: 40px;text-align: right;margin-right: 5px;line-height: 26px;vertical-align: middle;}
+
+
+/*其他公共样式*/
+.inleft {float: left;}
+.inright {float: right;}
+span.webicon.tan {background: url(../../images/lucency_icon/tan1.png) no-repeat 0px 0px;width: 32px;height: 32px;margin: -2px 5px;}
+.margin30 {margin: 30px;}
+.y_bordertop {border-top: 1px dashed #c9c9c9;}
+.padding30 {padding: 30px 0;}
+.inleft.w300 {width: 300px;}
+.inleft h3.title, .inright h3.title, .inmid h3.title {color: #fff;height: 26px;padding: 0 25px;float: left;line-height: 26px;background: url(../../images/lucency_icon/order_information_01.jpg) right no-repeat #8fc31f;}
+.fhnake .circle_mark1 {background: url(../../images/lucency_icon/duig2.png) no-repeat;height: 32px;width: 32px;margin-top: -2px;}
+.paddingl_100 {padding-left: 100px;}
+.inright.w680 {width: 682px;}
+.w145{width: 145px;}
+.line_height85{height:85px;line-height:20px;}
+.line_height165{height:165px;line-height:20px;}
+.w560{width: 560px;}
+.min-height348{min-height:348px;}
+.min-height380{min-height: 380px;}
+input.yback_blue {background: url(../../images/icon/ymz_012.png) repeat-x;padding: 0 10px;height: 30px;line-height: 28px;color: #fff;}
+.fangshi {padding: 30px 70px;}
+.myul>li {overflow: hidden;height: 65px;}
+.img-boder {width: 154px;height: 44px;line-height: 40px;cursor: pointer;text-align: center;}
+.img-h {background: url(../../images/img/xuanzhongkuang.png) no-repeat;}
+.myul>li.h25 {height: 25px;line-height: 25px;}
+.myul>li.height108 {height: 108px;}
+.id_Error {position: absolute;top: 24px;left: 61px;border: 1px solid #ff7c7a;padding-left: 25px;margin-top: 7px; height: 20px;line-height: 20px;padding-right: 5px;color: #000;background-color: #fef2f2;}
+.id_Error.zs_top170{top: 170px;}
+.id_Error.zs_top60{top: 60px;}
+.marginl20 {margin-left: 20px;}
+.user {padding: 10px;background: #fff5e5;overflow: hidden;border: 1px solid #eaeaea;}
+.user li {line-height: 18px;}
+input.yback_green.w100 {width: 100px;}
+.myul li.w554 {padding-bottom: 30px;width:554px;height:175px;}
+.myul>li.h108{height: 108px;}
+.bggreen {background: url(../../images/lucency_icon/yzm01.jpg) repeat-x;text-align: center;padding: 5px;}
+.w654{width: 654px;}
+.h100{height: 106px;}
+.line_h46{line-height: 46px;}
+.line_h30{line-height: 30px;}
+.line_h25{line-height: 25px;}
+.line_h20{line-height: 20px;}
+textarea.w488{min-height:170px;width:488px;}
+input.wh180{width:180px;height:25px;line-height:25px;}
+.cont1.w794h670{width: 794px;height: 670px;}
+.h286{height: 286px;}
+.wa340{width: 340px;margin: 0 auto;}
+span.y_shalou {width: 22px;height: 48px;background: url(../../images/icon/shalou.png) no-repeat;}
+.paddingl-180{padding-right: 180px;}
+table.simpleTable tr td p{padding:0 10px;}

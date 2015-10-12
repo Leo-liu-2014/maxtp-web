@@ -1,0 +1,70 @@
+@charset "utf-8";
+/*
+    评价回复
+    使用范围：
+    2015/10/10
+    by    zhangzhiguang
+*/
+/*发表的评论和回复*/
+.replybox { width: 100%; }
+.titlebox { width: 100%; overflow: hidden; }
+.titlebox.bghui { background: #f5f5f5; }
+.titlebox .imgbox img { float: left; border: 1px solid #ccc; }
+.titlebox .textbox { float: left; padding-left: 10px; }
+.titlebox .textbox.padding10_30 { padding: 10px 30px; }
+.titlehead { font-size: 18px; height: 30px; line-height: 30px; width: 100%; }
+.titlehead p.delete { font-size: 12px; }
+.replaytime { height: 30px; line-height: 24px; width: 100%; }
+.replaytime span.webicon { width: 20px; }
+.largebox { padding: 10px 2px 0px 2px; background: #f3f3f3; }
+.largebox.bgnone { background: #ffffff; }
+.largebox.botBot_solid_green { border-bottom: 1px solid #90e303; }
+.largeScale img { border: 1px solid #ccc; margin-right: 5px; margin-left: 15px; }
+.largeScale { height: 32px; padding: 2px 10px; line-height: 32px; background: #f7fceb; position: relative; }
+.largeScale ul { position: absolute; right: 25px; top: 2px; height: 32px; line-height: 32px; }
+.largeScale ul li { float: left; padding-left: 8px; }
+.largeScale ul li a { font-size: 12px; color: #999; }
+.largeScale ul li a.green { font-size: 12px; color: #6fa300; }
+.largeScale ul li a.alreytip { cursor: text; }
+.largeScale.wubg { background: none; }
+.largeScale.wubg img { margin-left: 0px; }
+.largeScale span.font { font-size: 12px; color: #6fa300; }
+.largeScale span.font a { font-size: 12px; color: #6fa300; }
+.largeText { margin: 10px 18px 0 65px; padding-bottom: 10px; line-height: 20px; color: #333333; }
+.largeText p.delete { text-align: center; padding: 20px 0; }
+.discuss { overflow: hidden; padding-bottom: 15px; border-bottom: 1px solid #91d400; }
+.discuss.linenone { border-bottom: none; }
+.discuss.btm_dashed { border-bottom: 1px dashed #ccc; }
+.response { padding-left: 55px; padding-bottom: 15px; border-bottom: 1px solid #91d400; }
+.response.borderwu { border-bottom: 0px; }
+.myreplay { overflow: hidden; padding-left: 10px; padding-bottom: 5px; }
+.distitle { float: left; min-width: 61px; width: 8%; height: 20px; line-height: 20px; }
+.dismain { width: 90%; float: left; line-height: 20px; margin-left: 40px; }
+.dismain.w87b { width: 90%; }
+.dismain span.right67 { padding-right: 65px; }
+.dismain p.delete { padding: 50px 0; width: 100%; text-align: center; }
+.dismain p.yellow, .largeText p.yellow { color: #ff6600; font-size: 12px; font-weight: 400; }
+
+/*温馨提示*/
+.Reminder { margin: 20px 10px; padding: 5px 25px; line-height: 24px; background: #fff1ec; }
+/*登陆后才能评论*/
+.postComment { text-align: center; position: relative; }
+.postComment .tibox { text-align: left; height: 24px; }
+.postComment .tibox h3 { float: right; font-size: 12px; }
+.postComment .textlogin { width: 100%; height: 170px; z-index: 20; position: absolute; top: 24px; left: 0px; filter: alpha(opacity=0); background: rgba(255, 255, 255, 0) !important; }
+.textlogin p { line-height: 170px; width: 100%; height: 170px; color: #666; }
+.textlogin p a { padding: 0 5px; }
+.botmain { margin: 0 30px; padding-top: 10px; border-top: 1px solid #6fa300; }
+.thismain { padding: 0 30px; }
+.thismain textarea { width: 100%; padding: 0px; min-height: 168px; overflow: auto; border: 1px solid #ccc; }
+.postBtn { width: 100%; text-align: right; line-height: 30px; }
+.postBtn span { padding-right: 30px; padding-top: 5px; display: block; }
+.postBtn span input[type="button"] { padding: 0 15px; height: 28px; color: #fff; cursor: pointer; background: url(../images/lucency_icon/yzm01.jpg) repeat-x; }
+.postBtn span input[type="button"]:hover { background: #93D700; }
+.postBtn span input[type="text"] { padding: 0 5px; width: 70px; height: 28px; line-height: 28px; border: 1px solid #ccc; }
+.paddingr30 { padding: 0 30px 0 0; }
+.padding030 { padding: 0 30px; }
+
+/*内容已删除区块*/
+.reMove_content_use { text-align: center; width: 100%; padding: 15px 0; }
+.reMove_content_brand { text-align: center; width: 94.5%; padding: 15px 0 15px 0; }

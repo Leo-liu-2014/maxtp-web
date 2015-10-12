@@ -1,0 +1,33 @@
+@charset "utf-8";
+/*
+    插入视频
+    使用范围：
+    2015/10/10
+    by    zhangzhiguang
+*/
+/*插入视频*/
+.InsertVideo { width: auto; min-width: 520px; background: #fff; text-align: center; padding: 0px 10px 0 10px; -moz-box-shadow: 2px 2px 2px #666; -webkit-box-shadow: 2px 2px 2px #666; box-shadow: 2px 2px 2px #666; overflow: hidden; }
+.InsertVideo .insertLeft { float: left; min-height: 435px; padding-right: 10px; margin-right: 10px; border-right: 1px dashed #ccc; margin-top: 10px; }
+.InsertVideo .insertLeft ul { }
+.InsertVideo .insertLeft ul li { height: 30px; line-height: 30px; width: 145px; background: url(../images/lucency_icon/leftnav.png) repeat-x; font-size: 14px; }
+.InsertVideo .insertLeft ul li.hover { background: url(../images/lucency_icon/yzm01.jpg) repeat-x; }
+.InsertVideo .insertLeft ul li.hover a { color: #fff; }
+.InsertVideo .insertRight { float: left; }
+.InsertVideo .insertRight div { width: 645px; overflow: hidden; }
+.InsertVideo .insertRight div.yahoo { padding-right: 10px; width: auto; }
+.InsertVideo .insertRight dl { width: 202px; float: left; margin-left: 10px; margin-top: 10px; }
+.InsertVideo .insertRight dl dt { border: 1px solid #ccc; padding: 10px; width: 180px; }
+.InsertVideo .insertRight dl dt a img { margin-bottom: 6px; }
+.InsertVideo .insertRight dl dt a { display: block; font-size: 12px; text-align: left; }
+.InsertVideo .insertRight dl dd { width: 200px; border: 1px solid #9ce300; height: 25px; line-height: 25px; margin-top: 3px; background: url(../images/lucency_icon/img_04.jpg) repeat-x; }
+.InsertVideo .insertRight dl dd a { color: #6fa300; font-size: 14px; display: block; }
+/*插入视频 二级弹出框*/
+.InsertVideo ul.videoDetail { padding: 10px; }
+.InsertVideo ul.videoDetail li { text-align: left; padding: 3px 10px; line-height: 30px; border-bottom: 1px dashed #ccc; overflow: hidden; }
+.InsertVideo ul.videoDetail li div.fl, .InsertVideo ul.videoDetail li div.fr { width: 215px; }
+.InsertVideo ul.videoDetail li strong { display: block; width: 65px; float: left; }
+.InsertVideo ul.videoDetail li p { width: 430px; line-height: 20px; float: left; padding: 6px 0; }
+.InsertVideo ul.videoDetail li div.img { float: left; padding: 10px 0; }
+.InsertVideo ul.videoDetail li div.img img { border: 1px solid #ccc; float: left; }
+.InsertVideo ul.videoDetail li div.img a { display: block; float: left; padding: 0 15px 0 0px; background: url(../images/lucency_icon/yzm01.jpg) repeat-x; color: #fff; line-height: 30px; font-size: 14px; margin: 71px 0 0 10px; }
+.InsertVideo ul.videoDetail li div.img a span { display: block; margin: 7px 15px 0 15px; width: 16px; height: 16px; background: url(../images/icon/yzm37.png) no-repeat; float: left; }

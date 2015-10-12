@@ -1,0 +1,24 @@
+@charset "utf-8";
+/*
+    私信
+    使用范围：
+    2015/10/10
+    by    zhangzhiguang
+*/
+
+.sixin { min-width: 480px; box-shadow: 0px 0px 0px #666; padding: 10px; background: #fff; }
+.sixin ul { padding: 10px 0; }
+.sixin ul li { text-align: left; overflow: hidden; }
+.sixin ul li .pl10 { padding-left: 10px; }
+.sixin ul li div.label { width: 60px; font-size: 14px; float: left; text-align: right; }
+.sixin ul li textarea.style1 { width: 360px; padding: 0 5px; line-height: 22px; height: 90px; resize: none; }
+.sixin ul li p { line-height: 25px; overflow: hidden; }
+.sixin ul li p.padding60_45 { padding: 0 45px 0 60px; }
+.sixin ul li .margin60_45 { margin: 10px 45px 0 60px; }
+.sixin ul li p a.up_img { background: url(../images/icon/ty23.png) repeat-x; display: block; padding: 0 10px; float: left; border: 1px solid #ccc; color: #6fa300; height: 23px; line-height: 23px; }
+.sixin ul li p input.button { background: url(../images/lucency_icon/yzm01.jpg) repeat-x; color: #fff; padding: 0 10px; height: 25px; line-height: 23px; margin-left: 10px; }
+.sixin ul li div.imghang { padding: 5px; background: #f5f5f5; overflow: hidden; }
+.sixin ul li div.imghang a { display: block; }
+.sixin ul li div.imghang a.img { display: block; width: 85px; height: 50px; border: 1px solid #ccc; float: left; }
+.sixin ul li div.imghang a.delete { width: 45px; text-align: center; float: left; line-height: 52px; }
+.sixin ul li div.imghang div.text { line-height: 52px; float: left; width: 215px; padding: 0 10px; }

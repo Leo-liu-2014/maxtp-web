@@ -1,0 +1,18 @@
+@charset "utf-8";
+/*
+    订单列表-查看物流
+    使用范围：
+    2015/10/10
+    by    zhangzhiguang
+*/
+/*订单列表-查看物流*/
+.ExpInfo { width: 270px; display: none; border: 1px solid #84c200; background: #fff; position: relative; position: absolute; padding: 10px; }
+.ExpInfo span.Arrow { display: block; width: 25px; height: 12px; background: url(../images/icon/top_png04.png) no-repeat; position: absolute; top: -12px; left: 125px; }
+.ExpInfo p { height: 30px; line-height: 24px; border-bottom: 1px solid #ccc; text-align: center; }
+.ExpInfo ul { padding: 10px 5px; }
+.ExpInfo ul li { padding: 10px 0 10px 0; color: #666; }
+.ExpInfo ul li.yellow span { color: #f60; }
+.ExpInfo ul li span { display: block; line-height: 20px; }
+.ExpInfo ul li em { display: block; float: left; margin-right: 5px; width: 4px; height: 4px; margin-top: 9px; }
+.ExpInfo ul li em.point { background: #999; }
+.ExpInfo ul li.yellow em.point { background: #ff6600; }

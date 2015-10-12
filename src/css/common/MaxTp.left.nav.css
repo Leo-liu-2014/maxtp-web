@@ -1,0 +1,107 @@
+@charset "utf-8";
+/*
+    左侧导航
+    使用范围：
+    2015/10/10
+    by    zhangzhiguang
+*/
+
+
+/*公用leftNav w162*/
+.indivbox { float: left; overflow: hidden; }
+.indivbox h3 { width: 200px; height: 35px; line-height: 33px; margin-bottom: 10px; }
+.indivbox h3 a { color: #6fa300; background: url(../images/lucency_icon/img_04.jpg); font-weight: bold; display: block; border: 1px solid #9ce300; width: 198px; height: 35px; text-align: center; }
+.indivbox h3 a.geren_bj, .indivbox h3 a:hover { background: url(../images/icon/ymz_011.png) repeat-x scroll 0 0; color: #fff; border: 1px solid #9ce300; }
+.indiv_bl { border: 1px solid #ccc; background: #fff; margin-right: 10px; float: left; }
+.indiv_bl li { height: auto; clear: both; }
+.indiv_bl li a { display: block; width: 92px; height: 42px; line-height: 42px; font-size: 14px; background: url(../images/lucency_icon/gren_02.png) no-repeat 25px 14px; padding-left: 66px; position: relative; }
+.indiv_bl li.b_posi a { display: block; width: 92px; height: 42px; line-height: 42px; font-size: 14px; background: url(../images/lucency_icon/gren_02.png) no-repeat 25px 14px; padding-left: 66px; position: relative; }
+
+.indiv_bl li.b_posi a { display: block; width: 116px; height: 42px; line-height: 42px; font-size: 14px; background: url(../images/lucency_icon/gren_02.png) no-repeat 18px 14px; padding-left: 42px; position: relative; }
+.indiv_bl li.b_posi a:hover { background: url(../images/lucency_icon/gren_03.png) no-repeat 18px 14px #f8f8f8; color: #6FA300; }
+.indiv_bl li.b_posi a.geren_bj { background: url(../images/lucency_icon/gren_03.png) no-repeat 18px 14px #f8f8f8; color: #6FA300; }
+
+.indiv_bl li a i { position: absolute; right: 10px; top: 13px; display: block; width: 14px; height: 16px; background: url(../images/icon/brand_icon.png) no-repeat; }
+.indiv_bl li a i.bg1 { background-position: -66px -100px; }
+.indiv_bl li a i.bg2 { background-position: -88px -97px; }
+.indiv_bl li a.geren_bj, .indiv_bl li a:hover { background: url(../images/lucency_icon/gren_03.png) no-repeat 25px 14px #f8f8f8; color: #6FA300; }
+.indiv_bl li a.geren_bj i.bg1, .indiv_bl li a:hover i.bg1 { background-position: -66px -73px; }
+.indiv_bl li a.geren_bj i.bg2, .indiv_bl li a:hover i.bg2 { background-position: -88px -65px; }
+.indiv_bl li a.geren_bj { font-weight: bold; }
+.indiv_bl li div { display: none; clear: both; padding: 5px 0; }
+.indiv_bl li div.list { display: none; }
+.indiv_bl li div p a { display: block; background: none; line-height: 30px; height: 30px; padding-left: 57px; }
+.indiv_bl li div p a:hover { background: none; }
+.indiv_bl li div p a.on { color: #6FA300; }
+/*设置公用leftNav 宽度与背景*/
+
+/*width200* bug*/
+.indiv_bl.w100b li div p a.long { background: none; padding: 0 20px; width: inherit; }
+.indiv_bl.w100b li div p a.long:hover { color: #6fa300; }
+
+
+div.box_main { width: 198px; border: 1px solid #ccc; margin-right: 10px; display: inline; float: left; }
+/*width200*/
+.indiv_bl.w100b { width: 198px; }
+.indiv_bl.w100b li { margin-bottom: 5px; }
+.indiv_bl.w100b li a { display: block; width: 168px; height: 30px; line-height: 30px; font-size: 14px; background: url(../images/lucency_icon/leftnav.png) repeat-x; padding-left: 30px; font-weight: bold; position: relative; color: #333; }
+.indiv_bl.w100b li a i { top: 6px; }
+.indiv_bl.w100b li a.geren_bj, .indiv_bl.w100b li a:hover { background: url(../images/lucency_icon/yzm01.jpg) repeat-x scroll 0 0; color: #fff; }
+.indiv_bl.w100b li div p a { background: none; font-weight: 400; padding-left: 30px; }
+.indiv_bl.w100b li a.geren_bj i.bg1, .indiv_bl.w100b li a:hover i.bg1 { background: url(../images/icon/yzm35.png) no-repeat scroll -1px 1px; }
+.indiv_bl.w100b li a.geren_bj i.bg2, .indiv_bl.w100b li a:hover i.bg2 { background: url(../images/icon/yzm34.png) no-repeat scroll 1px 1px; }
+.indiv_bl.w100b li div p a:hover { color: #6fa300; background: none; }
+.indiv_bl.w100b li div p a.on { color: #6fa300; }
+.indiv_bl.w100b li.marginNone { margin: 0; }
+/*Width 160*/
+.indiv_bl.w100b.w160 { width: 158px; }
+.indiv_bl.w100b.w160 li a { width: 128px; }
+
+/*.indiv_bl.w100b li p a{width: 152px;padding-left: 0}*/
+
+
+
+.apleleft h3 { width: 200px; height: 35px; line-height: 33px; margin-bottom: 10px; }
+.apleleft h3 a { color: #6fa300; background: url(../images/lucency_icon/img_04.jpg); font-weight: bold; display: block; border: 1px solid #9ce300; width: 198px; height: 35px; text-align: center; }
+.apleleft h3 a.geren_bj, .apleleft h3 a:hover { background: url(../images/icon/ymz_011.png) repeat-x scroll 0 0; color: #fff; border: 1px solid #9ce300; }
+
+.apleleft { width: 200px; float: left; margin-right: 10px; }
+.apleleft .ebox { border: 1px solid #92d702; width: 198px; min-height: 450px; }
+.apleleft .fbox { border: 1px solid #92d702; width: 198px; min-height: 270px; }
+.apleleft .ebox.border { border: 1px solid #ccc; }
+.apleleft .f60 { border: 1px solid #f60; }
+.apleleft.w160 { width: 160px; }
+.apleleft.w160 .ebox { border: 1px solid #92d702; width: 158px; min-height: 450px; }
+.apleleft.w160 .fbox { border: 1px solid #92d702; width: 158px; min-height: 270px; }
+
+.apleleft .ebox div { color: #333; line-height: 24px; padding: 10px 0; }
+.apleleft .ebox div a { font-size: 18px; display: block; font-weight: bold; padding: 0 55px; }
+.apleleft .ebox div.subcur-brand { background: #fff; border-bottom: 1px solid #ccc; }
+.apleleft .ebox div.subcur-brand a { padding: 0 36px; }
+.apleleft .ebox div.subcur-ms { background: #fff; border-bottom: 1px solid #ccc; }
+.apleleft .ebox div.subcur-jt { background: #fff; border-bottom: 1px solid #92d702; text-align: center; }
+.apleleft .ebox div.subcur-jt.borderGreen { border-bottom: 1px dashed #ccc; }
+.apleleft .ebox div.subcur-jt span.sanjiao { display: block; width: 14px; height: 9px; background: url(../images/icon/sanjiao.png); position: absolute; left: 50%; margin-left: -7px; top: 0; }
+.apleleft .ebox div.subcur-jt h3 { margin: 0; font-size: 16px; font-weight: bold; color: #6fa300; }
+.apleleft .ebox div.subcur-jt p.textLeft { text-align: left; border-top: 1px dashed #ccc; padding-top: 10px; }
+.apleleft .ebox div.subcur-ms a { padding: 0 56 px; }
+.apleleft .ebox div.txt { background: #fff; border-top: 1px solid #93d700; }
+.apleleft .ebox div p { text-align: center; font-size: 14px; }
+.apleleft .ebox div p a { padding: 0 15px; font-size: 14px; font-weight: 400; coplor: #333; }
+.apleleft .ebox div p a img { border: 1px solid #ccc; margin-bottom: 6px; }
+.apleleft .ebox div.current { text-align: center; padding: 0; color: #fff; line-height: 120px; background: url(../images/button/editbg.png) no-repeat; }
+.apleleft .ebox div.current.bgyellow { background: url(../images/button/editbgyellow.png) no-repeat; }
+.apleleft .ebox div.current a { color: #fff; font-size: 22px; font-weight: bold; padding: 0; }
+.apleleft ul li.rules { background: #fff; }
+.apleleft ul li.rules a { height: 50px; line-height: 50px; text-align: center; color: #0099ff; display: block; border-bottom: 1px dashed #ccc; font-size: 14px; }
+.apleleft ul li.rules a span { padding: 0 10px; background: url(../images/icon/brand_rightBox_icon.png) no-repeat scroll -580px -125px; }
+.apleleft ul li.greentxt { width: 150px; margin: 0 auto; line-height: 20px; margin-top: 20px; }
+.apleleft ul li.greentxt.top10 { margin-top: 10px; }
+.apleleft ul li.button { text-align: center; display: block; font-size: 14px; }
+.apleleft ul li.button a { display: block; height: 40px; line-height: 40px; margin: 15px; background: url(../images/lucency_icon/bgyeh40.png) repeat-x; color: #fff; font-weight: bold; text-align: center; font-size: 16px; }
+.apleleft ul li.button a.h30 { height: 30px; line-height: 30px; font-size: 14px; margin: 0; }
+.apleleft ul li.button a font { font-size: 18px; padding-right: 3px; }
+.apleleft ul li.button a:hover { background: #f39700; }
+.apleleft.w166 { width: 166px; }
+.apleleft.w166 div a { padding: 0 40px; }
+.apleleft.w166 div.current a { padding: 0; }

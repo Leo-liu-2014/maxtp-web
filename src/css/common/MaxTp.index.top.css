@@ -1,0 +1,70 @@
+﻿@charset "utf-8";
+/*
+    公共头部
+    使用范围：
+    2015/10/10
+    by    zhangzhiguang
+*/
+.header{  background:url(../images/icon/index_bj01.jpg) repeat-x; font-family:"宋体";}
+.header_top{ width:1000px;  margin:0 auto;}
+
+#site{ position: relative; z-index: 10;}
+.site_nav_left{ height:35px; line-height:35px; float:left;}
+.site_nav_left ul li{ float:left; height:35px; padding-right:10px; }
+.site_nav_left ul li a{padding:0px 9px 10px 5px;}
+.site_nav_left ul li a img{ vertical-align:middle; padding-right:3px; margin-bottom:2px;}
+/*关注美试样式*/
+.site_nav_left ul li.addpos{ position:relative; z-index:5;}
+.site_nav_left ul li.addpos a{ display:block; height:31px; line-height:29px; border:1px solid #ff6600;padding:0px 8px 0 4px; border-bottom:none;position:absolute; position:relative; top:2px; background:#fff;  color:#ff6600; z-index:5 }
+.focus_ms{  border:1px solid #ff6600; padding:10px 0px 5px 0px; position:absolute; z-index:55;z-index:10; display: none;width:102px;height:20px;background:#FFF url('../../images/bannk/ewm_2.jpg') center 12px no-repeat;text-align:center;padding-top:98px;}
+.focus_ms ul{ float:left; }
+.focus_ms ul li{ width:100px; height:auto ; text-align:center; display:block; line-height:24px; color:#666666; font-family:"微软雅黑"; text-align: center; }
+/*登录区域样式*/
+.site_nav_right{ float:right; color:#666; line-height:35px; font-size:12px;}
+.site_nav_right span{ margin-right:10px;}
+.site_nav_right a{ color:#666;}
+.site_nav_right a:hover{ color:#6fa300;}
+/*logo区域left*/
+.loge_area_left{ clear:both; height:110px; position:relative; z-index:5; }
+/*logo样式*/
+.loge_area_left a.logo{ float:left; width:384px; height:70px; background:url(../../images/logo/logo_06.png) no-repeat; margin:20px 0 0 0; overflow:hidden;}
+/*.loge_area_left a.weblogo{ float:left; width:392px; height:70px; background:url(../../images/logo/webLogo.png) no-repeat scroll 0 8px; margin:20px 0 0 0; overflow:hidden;}*/
+.loge_area_left .weblogo_logo { background:url('../../images/logo/webLogo_meishi.png') 0 0 no-repeat;display:inline-block;width:135px;height:57px;padding-right:5px;margin-top:28px;}
+.loge_area_left .weblogo_pic { background:url('../../images/logo/webLogo_pic.png') 0 bottom no-repeat;display:inline-block;width:120px;height:57px;padding-right:22px;}
+.loge_area_left a.weblogo2{ float:left; width:270px; height:70px; background:url(../../images/logo/meishi.png) no-repeat scroll 0 8px; margin:20px 0 0 0; overflow:hidden;}
+.search_index p input.searchBtn:hover{ background:url(../../images/button/indexSearchHover.png) no-repeat;}
+/*搜索框效果*/
+.search_index ul li a:hover{ color:#6fa300; display:block;}
+/*导航样式*/
+.navfull{ height: 30px; background:#333;}
+.nav{ clear:both; height:30px; width:1000px; margin: 0 auto;}
+.nav_left{ float:left; width:156px; height:30px; position:relative;}
+.nav_left ul{ position:absolute; top:30px; left:0px; width:154px; padding:10px 0; background:#FFF; border:1px solid #000;}
+.nav_left ul li{ width:156px; line-height:24px; height:24px; text-align:center;}
+.nav_left h3 { color:#93d700; line-height:30px; text-align:center;}
+.nav_left h3 span{ padding:0 10px; background:url(../../images/icon/yzm32.png) no-repeat scroll 3px 5px ;}
+.nav_right{ float:left; width:844px;}
+.nav_right ul li{ float:left;}
+.nav_right ul li a{ float:left; line-height:30px; width:93px; text-align:center; font-size:14px; color:#fff;text-decoration:none; }
+.nav_right ul li a.hover{ background:#93d700;}
+.nav_right.b30{ width: 1000px; padding: 0;}
+.nav_right.b30 ul li{ width: 33%;}
+.nav_right.b30 ul li a{ width:100%;}
+.infoTx{position:relative; position:absolute; width:105px; height:60px; display:none; border:1px solid #95d800; font-size:12px; padding:0 5px; border-radius:4px; box-shadow:2px 2px 2px #ccc; background:#fff; z-index: 10;}
+.infoTx .topjt{ background:url(../images/icon/bgjt.png) no-repeat; position:absolute; top:-9px; left:37px; width:12px; height:12px;}
+.infoTx ul li{ line-height:30px;padding-left:2px !important; padding-left:3px; }
+.infoTx ul li a{ font-size:12px; }
+.Staff_message dl a:hover{color:#6fa300;}
+.topHead .siteRight ul li a:hover{ color:#6fa300; border:1px solid #333; overflow: hidden;}
+.footer-mid .midList ul li a:hover{ color: #ccc;}
+.friendLink a:hover{ color: #ccc;}
+.account-daohang ul li a.hover{background: #379300;}
+/*品牌私信TOP*/
+ .account-daohang2 li:hover{background-color: #ff9900;}
+ /*前端top通用.html*/
+.site_nav_left ul li a { display:block;height:35px;width:85px;line-height:36px;padding:0;text-indent:23px;color:#666;text-decoration:none;}
+.site_nav_left ul li a.mobile {background:url('../../images/lucency_icon/top_png01.png') 5px center no-repeat; }
+.site_nav_left ul li a.wechat { background:url('../../images/lucency_icon/top_png02_1.png') 5px center no-repeat;}
+.site_nav_left ul li a.collection { background:url('../../images/icon/top_png05.png') 5px center no-repeat;}
+.site_nav_right a { text-decoration:none;}
+.infoTx ul li a { text-decoration:none;color:#666;}
