@@ -1,0 +1,43 @@
+// var maxtpAdcounter = {
+//   //"slider" : [{"h2title":"热门<em class='green'>裸价体验</em>","imgsrc":"http://demo.detail.maxtp.com/images/bannk/1.jpg|ad2|ad3|ad4","links":"1#|2#|3#|4#","titles":"第1张|第2张|第3张|第4张"},{"h2title":"热门<em class='green'>免费试用</em>","imgsrc":"http://demo.detail.maxtp.com/images/bannk/1.jpg|ad2|ad3|ad4","links":"4#|5#|6#|7#","titles":"第1张|第2张|第3张|第4张"}],
+//   "simpleimg" : [{"h2title" :"热门<em class='green'>这里是指标题</em>","link" :"http://www.baidu.com","src" :"http://demo.detail.maxtp.com/images/bannk/1.jpg"},{"h2title" :"","link" :"http://www.baidu.com","src" :"http://maxtp-image.oss-cn-beijing.aliyuncs.com/d6241b71-4782-4fe4-913c-12167612b529.jpg"},{"h2title" :"","link" :"http://www.baidu.com","src" :"http://maxtp-image.oss-cn-beijing.aliyuncs.com/d6241b71-4782-4fe4-913c-12167612b529.jpg"},{"h2title" :"","link" :"http://www.baidu.com","src" :"http://maxtp-image.oss-cn-beijing.aliyuncs.com/d6241b71-4782-4fe4-913c-12167612b529.jpg"},{"h2title" :"","link" :"http://www.baidu.com","src" :"http://maxtp-image.oss-cn-beijing.aliyuncs.com/d6241b71-4782-4fe4-913c-12167612b529.jpg"},{"h2title" :"","link" :"http://www.baidu.com","src" :"http://maxtp-image.oss-cn-beijing.aliyuncs.com/d6241b71-4782-4fe4-913c-12167612b529.jpg"},{"h2title" :"","link" :"http://www.baidu.com","src" :"http://maxtp-image.oss-cn-beijing.aliyuncs.com/d6241b71-4782-4fe4-913c-12167612b529.jpg"},{"h2title" :"","link" :"http://www.baidu.com","src" :"http://maxtp-image.oss-cn-beijing.aliyuncs.com/d6241b71-4782-4fe4-913c-12167612b529.jpg"},{"h2title" :"","link" :"http://www.baidu.com","src" :"http://maxtp-image.oss-cn-beijing.aliyuncs.com/d6241b71-4782-4fe4-913c-12167612b529.jpg"},{"h2title" :"","link" :"http://www.baidu.com","src" :"http://maxtp-image.oss-cn-beijing.aliyuncs.com/d6241b71-4782-4fe4-913c-12167612b529.jpg"},{"h2title" :"","link" :"http://www.baidu.com","src" :"http://maxtp-image.oss-cn-beijing.aliyuncs.com/d6241b71-4782-4fe4-913c-12167612b529.jpg"}],
+//   "text" : [{"text": "我就是个文字链接","link":"http://demo.maxtp.com"}]
+// }
+
+var maxtpAdcounter = [{"code":"000001",
+                       "timer":"1000",
+                       "titlecounter":"我是这个广告位的title",
+                       "data":{"links":"link1|link2|link3",
+                               "url":"http://test.detail.maxtp.net/images/bannk/1.jpg|http://test.detail.maxtp.net/images/bannk/1.jpg|http://test.detail.maxtp.net/images/bannk/1.jpg",
+                               "titles":"titile1|title2|title3",
+                               "ids":"id1|id2|id3|id4"}
+                      },
+                      {"code":"000002",
+                       "titlecounter":"1",
+                       "data":{"links":"link1",
+                               "url":"http://g1.ykimg.com/1100641F4653C94E10F752087AC0922C471BBA-70CC-3360-8758-75786CBCFB82",
+                               "titles":"titile1",
+                               "ids":"id1"}
+                      },
+                      {"code":"000003",
+                       "titlecounter":"",
+                       "data":{"links":"link1",
+                               "url":"我是一个文字链啊",
+                               "titles":"titile1",
+                               "ids":"id1"}
+                      },
+                      {"code":"000004",
+                       "timer":"3000",
+                       "titlecounter":"我是第四个轮播的广告位",
+                       "data":{"links":"link1|link2|link3",
+                               "url":"http://wanzao2.b0.upaiyun.com/system/pictures/4553090/original/20130901113058.png|http://test.detail.maxtp.net/images/bannk/1.jpg|http://wanzao2.b0.upaiyun.com/system/pictures/4553090/original/20130901113058.png",
+                               "titles":"titile1|title2|title3",
+                               "ids":"id1|id2|id3|id4"}
+                      },
+                      {"code":"000005",
+                       "titlecounter":"",
+                       "data":{"links":"link1",
+                               "url":"http://wanzao2.b0.upaiyun.com/xbimg/1007/noral/usercontent/2013/8/31/13779160357102844.png",
+                               "titles":"titile1",
+                               "ids":"id1"}
+                      }]

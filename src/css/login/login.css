@@ -73,6 +73,9 @@ input{background: inherit;}
 .logo_form div{ height:25px;line-height:23px; border:1px solid #ccc; color:#666; width:218px; padding-left:30px; position:relative;border-radius:2px;}
 .logo_form div.oncaps{ box-shadow:0px 0px 2px #f60; border:1px solid #f60;}
 .logo_form div.ongreen{box-shadow:0px 0px 2px #93d700; border:1px solid #93d700;}
+
+
+
 .logo_form div input{ border:none;color:#333; height:25px; *height:23px; line-height:23px; width:218px; outline:none; }
 .logo_form div i{display:block; width:16px; height:16px; position:absolute; left:5px; top:3px;background:url(../../images/icon/brand_rightBox_icon.png) no-repeat}
 .logo_form div .use{ background-position:-430px -128px;}

@@ -1,0 +1,90 @@
+<!doctype html>
+<html ng-app="">
+<head>
+<title>美试网-试遍天下 Revision:26487</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="renderer" content="webkit">
+<meta name="Keywords"  content="美试网" />
+<meta name="Description"  content="美试网" />
+<link href="../../src/css/base.css" rel="stylesheet" type="text/css" />
+<link href="../../src/css/login/login.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">  
+    var basePath = '';
+    var imagePath = 'http://maxtp-image.oss-cn-beijing.aliyuncs.com';
+    var detailPath='http://demo.detail.maxtp.com/item.htm?spm=';
+    var thisPath='';
+
+    //订单项目的地址
+    var orderProjectPath = 'http://demo.order.maxtp.com';
+    var goodsTradePath = 'http://demo.detail.maxtp.com/tradeSnap.htm';
+    
+    var memberPath='http://demo.maxtp.com';
+    
+    //最新线上文件路径
+    var fileUrl = 'http://static.maxtp.com/src';
+</script>
+
+</head>
+<body>
+  <div class="topHead">
+       <div class="main">
+            <!--logo-->
+            <div class="back_logo">
+                <a href="/member"><img src="http://test.static.maxtp.net//src/images/logo/webLogo.png" width="260" height="57" /></a>
+            </div>
+       </div>
+  </div>
+  <div class="main relative minH450">
+       <div class="slide brand">
+           <img src="http://test.static.maxtp.net/src/images/user/usebanner.jpg" width="420" height="420">
+       </div>
+       <div class="msTxt"></div>
+       <div class="zhengyq"><img src="http://test.static.maxtp.net//src/images/button/zyq.png" width="333" height="100" /></div>
+       <div class="liginform brand" id="maxtpLogin">
+             <div class="logo_form">
+                    <div class="accountNum item">
+                         <i class="use"></i>
+                         <input type="text" class="mustVal noSpace" placeholder="账号" keydown="enter" id="phoneInput" name="userName" maxlength="11" />
+                         <p class="Prompt textError yellow" id="" style="display:block"></p>
+                    </div>
+                    <div class="password top25 item">
+                        <i class="word"></i>
+                        <input id="passwordInput" class="mustVal noVerify" type="password" placeholder="密码" keydown="enter" keyup="caplock"  name="password" maxlength="18"  />
+                        <p class="Prompt textError yellow" id="" style="display:block"></p>
+                        <p class="capsLock" data-val="请输入密码"></p>
+                    </div>
+             </div>
+             <!--identifying code-->
+             <div class="code top25" id="validCodeDiv" style="display:none;">
+                 <input type="text" name="safecode" class="mustVal" id="safecode" placeholder="验证码" keydown="enter" maxlength="4"/>
+                 <p class="Prompt textError yellow" id="" style=""></p>
+                 <a class="green next changeCode" id="changeimage_link" href="javascript:;"><img src="http://test.maxtp.net/image/validcode.htm?date=1450069501349" id="changeimage" width="75" height="31">
+                 换一张</a>
+             </div>
+             <!--Remember-->
+             <div class="remem">
+                  <input type="checkbox" name="checkbox_phone" value="1" id="rem_phone" />
+                  <label  onselectstart="return false;" style="-moz-user-select:none;" for="rem_phone">记住账号</label>
+                  <input type="checkbox" name="checkbox_autoLogin" value="1" id="rem_psw" />
+                  <label  onselectstart="return false;" style="-moz-user-select:none;" for="rem_psw">记住密码</label>
+             </div>
+             <!--login btn-->
+             <div class=" top15"  >
+                  <a href="javascript:" id="loginBtn" class="login_btn">登 录</a>
+             </div>
+             <!--get-->
+             <div class="forget">
+                 <p>
+                  <a class="blue first" href="javascript:;">忘记登录手机号</a>
+                  <a class="blue" href="/member/pwdForget/toValideIdentity.htm">忘记密码</a>
+                  <a class="last enroll" href="/member/user/regist/pollCode.htm">免费注册</a>
+                 </p>
+             </div>
+         </div>
+  </div>
+<!-- 美试标准的footer -->
+<script type="text/javascript" src="../../src/js/jquery.min.js"> </script>
+<script type="text/javascript" src="../../src/js/login/login.js"></script>
+</body>
+</html>

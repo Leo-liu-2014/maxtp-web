@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<title>美试网-试遍天下 Revision:26487</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="renderer" content="webkit">
+<meta name="Keywords"  content="美试网" />
+<meta name="Description"  content="美试网" />
+<link href="../../src/css/base.css" rel="stylesheet" type="text/css" />
+<link href="../../src/css/login/login.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../../src/js/react/react.min.js"></script>
+<script type="text/javascript" src="../../src/js/react/browser.min.js"></script>
+<script type="text/javascript" src="../../src/js/react/react-dom.min.js"></script>
+</head>
+<body>
+
+<div class="topHead">
+       <div class="main">
+            <!--logo-->
+            <div class="back_logo">
+                <a href="/member"><img src="http://test.static.maxtp.net//src/images/logo/webLogo.png" width="260" height="57" /></a>
+            </div>
+       </div>
+  </div>
+  <div class="main relative minH450">
+       <div class="slide brand">
+           <img src="http://test.static.maxtp.net/src/images/user/usebanner.jpg" width="420" height="420">
+       </div>
+       <div class="msTxt"></div>
+       <div class="zhengyq"><img src="http://test.static.maxtp.net//src/images/button/zyq.png" width="333" height="100" /></div>
+       <div class="liginform brand" id="loginFrom"></div>
+  </div>
+  <input type="hidden" id="hide_uu" value="" />
+  <input type="hidden" id="hide_up" value="" />
+
+
+<script type="text/babel">
+      
+      // body
+      var body = document.body;
+      var header = document.getElementById("header");
+      var content = document.getElementById("content");
+      var loginForm = document.getElementById("loginFrom");
+      //头部组件
+      var MaxtpHeader = React.createClass({
+        focus : function() {
+            
+        },
+        blur : function() {
+          //alert(2);
+        },
+        keyup : function() {
+          //alert(3);
+        },
+        render : function() {
+          return(
+              <form id = "login_form" method="post" action="/member/user/login.htm">
+                   <div className="logo_form">
+                          <div className="accountNum item">
+                               <i className="use"></i>
+                               <input type="text" className="mustVal noSpace" placeholder={this.props.placeholder} onFocus={this.focus} onBlur={this.blur} onChange={this.keyup}  autoComplete />
+                               <p className="Prompt textError"></p>
+                          </div>
+                   </div>
+              </form>
+
+          )
+        }
+
+      });
+
+      ReactDOM.render(
+        <MaxtpHeader path="/member" placeholder = "帐号" logoSouces="http://test.static.maxtp.net/src/images/logo/webLogo.png" />,
+        loginForm
+      );
+    </script>
+
+
+
+
+
+</body>
+</html>
